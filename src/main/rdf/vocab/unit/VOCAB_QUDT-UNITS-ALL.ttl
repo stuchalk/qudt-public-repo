@@ -363,7 +363,7 @@ unit:A-PER-CentiM
 
 unit:A-PER-CentiM2
   a qudt:Unit ;
-  dcterms:description "SI base unit ampere divided by the 0.0001-fold  of the power of the SI base unit metre by exponent 2"^^rdf:HTML ;
+  dcterms:description "SI base unit ampere divided by the 0.0001-fold of the power of the SI base unit metre by exponent 2"^^rdf:HTML ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
@@ -372,7 +372,7 @@ unit:A-PER-CentiM2
   qudt:hasDimensionVector qkdv:A0E1L-2I0M0H0T0D0 ;
   qudt:hasQuantityKind quantitykind:ElectricCurrentDensity ;
   qudt:iec61360Code "0112/2///62720#UAB052" ;
-  qudt:plainTextDescription "SI base unit ampere divided by the 0.0001-fold  of the power of the SI base unit metre by exponent 2" ;
+  qudt:plainTextDescription "SI base unit ampere divided by the 0.0001-fold of the power of the SI base unit metre by exponent 2" ;
   qudt:symbol "A/cm²" ;
   qudt:ucumCode "A.cm-2"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "A4" ;
@@ -955,12 +955,12 @@ unit:AC-FT_US
   qudt:symbol "acre·ft{US Survey}" ;
   qudt:ucumCode "[acr_br].[ft_us]"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Acre Us Survey Foot" ;
-  rdfs:label "Acre Us Survey Foot"@en .
+  rdfs:label "Acre US Survey Foot" ;
+  rdfs:label "Acre US Survey Foot"@en .
 
 unit:AMU
   a qudt:Unit ;
-  dcterms:description "The $\\textit{Unified Atomic Mass Unit}$ (symbol: $\\mu$) or $\\textit{dalton}$ (symbol: Da) is a unit that is used for indicating mass on an atomic or molecular scale. It is defined as one twelfth of the rest mass of an unbound atom of carbon-12 in its nuclear and electronic ground state, and has a value of $1.660538782(83) \\times 10^{-27} kg$.  One $Da$ is approximately equal to the mass of one proton or one neutron. The CIPM have categorised it as a $\\textit{\"non-SI unit whose values in SI units must be obtained experimentally\"}$."^^qudt:LatexString ;
+  dcterms:description "The $\\textit{Unified Atomic Mass Unit}$ (symbol: $\\mu$) or $\\textit{dalton}$ (symbol: Da) is a unit that is used for indicating mass on an atomic or molecular scale. It is defined as one twelfth of the rest mass of an unbound atom of carbon-12 in its nuclear and electronic ground state, and has a value of $1.660538782(83) \\times 10^{-27} kg$. One $Da$ is approximately equal to the mass of one proton or one neutron. The CIPM have categorised it as a $\\textit{\"non-SI unit whose values in SI units must be obtained experimentally\"}$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.00000000000000000000000000166053878283 ;
   qudt:conversionMultiplierSN 1.66053878283E-27 ;
   qudt:exactMatch unit:DA ;
@@ -979,7 +979,7 @@ unit:AMU
 
 unit:ANGSTROM
   a qudt:Unit ;
-  dcterms:description "The $Angstr\\ddot{o}m$ is an internationally recognized unit of length equal to $0.1 \\,nanometre$ or $1 \\times 10^{-10}\\,metres$.  Although accepted for use, it is not formally defined within the International System of Units(SI). The angstrom is often used in the natural sciences to express the sizes of atoms, lengths of chemical bonds and the wavelengths of electromagnetic radiation, and in technology for the dimensions of parts of integrated circuits. It is also commonly used in structural biology."^^qudt:LatexString ;
+  dcterms:description "The $Angstr\\ddot{o}m$ is an internationally recognized unit of length equal to $0.1 \\,nanometre$ or $1 \\times 10^{-10}\\,metres$. Although accepted for use, it is not formally defined within the International System of Units(SI). The angstrom is often used in the natural sciences to express the sizes of atoms, lengths of chemical bonds and the wavelengths of electromagnetic radiation, and in technology for the dimensions of parts of integrated circuits. It is also commonly used in structural biology."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.0000000001 ;
   qudt:conversionMultiplierSN 1.0E-10 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/%C3%85ngstr%C3%B6m"^^xsd:anyURI ;
@@ -1001,7 +1001,7 @@ unit:ANGSTROM
 
 unit:ANGSTROM3
   a qudt:Unit ;
-  dcterms:description "A unit that is a non-SI unit, specifically a CGS unit,  of polarizability known informally as polarizability volume.  The SI defined units for polarizability are C*m^2/V and can be converted to $Angstr\\ddot{o}m$^3 by multiplying the SI value by 4 times pi times the vacuum permittivity and then converting the resulting m^3 to $Angstr\\ddot{o}m$^3 through the SI base 10 conversion (multiplying by 10^-30)."^^qudt:LatexString ;
+  dcterms:description "A unit that is a non-SI unit, specifically a CGS unit, of polarizability known informally as polarizability volume. The SI defined units for polarizability are C*m^2/V and can be converted to $Angstr\\ddot{o}m$^3 by multiplying the SI value by 4 times pi times the vacuum permittivity and then converting the resulting m^3 to $Angstr\\ddot{o}m$^3 through the SI base 10 conversion (multiplying by 10^-30)."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:conversionMultiplier 0.000000000000000000000000000001 ;
   qudt:conversionMultiplierSN 1.0E-30 ;
@@ -1135,7 +1135,7 @@ unit:AT-PER-IN
 unit:AT-PER-M
   a qudt:DerivedUnit, qudt:Unit ;
   dcterms:description """
-  The  $\\textit{Ampere Turn per Metre}$ is the SI unit of magnetic field strength.
+  The $\\textit{Ampere Turn per Metre}$ is the SI unit of magnetic field strength.
   One ampere per meter is equal to $\\pi/250$ oersteds (12.566 371 millioersteds) in CGS units.
   The ampere per meter is also the SI unit of "magnetization" in the sense of magnetic dipole moment per unit volume;
    in this context $1 A/m = 0.001 emu per cubic centimeter$.
@@ -2226,8 +2226,8 @@ unit:BBL_US_PET
   qudt:symbol "bbl{US petroleum}" ;
   qudt:ucumCode "[bbl_us]"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Barrel (us Petroleum)" ;
-  rdfs:label "Barrel (us Petroleum)"@en ;
+  rdfs:label "Barrel (US Petroleum)" ;
+  rdfs:label "Barrel (US Petroleum)"@en ;
   skos:broader unit:BBL_US .
 
 unit:BBL_US_PET-PER-HR
@@ -2245,8 +2245,8 @@ unit:BBL_US_PET-PER-HR
   qudt:ucumCode "[bbl_us].h-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J62" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Barrel (us Petroleum) per Hour" ;
-  rdfs:label "Barrel (us Petroleum) per Hour"@en .
+  rdfs:label "Barrel (US Petroleum) per Hour" ;
+  rdfs:label "Barrel (US Petroleum) per Hour"@en .
 
 unit:BBL_US_PET-PER-SEC
   a qudt:ContextualUnit, qudt:Unit ;
@@ -2263,8 +2263,8 @@ unit:BBL_US_PET-PER-SEC
   qudt:ucumCode "[bbl_us].s-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J62" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Barrel (us Petroleum) per Second" ;
-  rdfs:label "Barrel (us Petroleum) per Second"@en .
+  rdfs:label "Barrel (US Petroleum) per Second" ;
+  rdfs:label "Barrel (US Petroleum) per Second"@en .
 
 unit:BEAT
   a qudt:ContextualUnit, qudt:CountingUnit, qudt:Unit ;
@@ -2286,7 +2286,7 @@ unit:BEAT
 
 unit:BEAT-PER-MIN
   a qudt:ContextualUnit, qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Heart Beat per Minute\" is a unit for  'Heart Rate' expressed as $BPM$."^^qudt:LatexString ;
+  dcterms:description "\"Heart Beat per Minute\" is a unit for 'Heart Rate' expressed as $BPM$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.01666666666666666666666666666666667 ;
   qudt:conversionMultiplierSN 1.666666666666666666666666666666667E-2 ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
@@ -2849,7 +2849,7 @@ unit:BTU_IT-FT-PER-FT2-HR-DEG_F
   a qudt:DerivedUnit, qudt:Unit ;
   dcterms:description """
   A $BTU_{IT}$, $\\italic{Foot per Square Foot Hour Degree Fahrenheit}$ is an Imperial unit for 'Thermal Conductivity',
-   expressed as $Btu_{it} \\cdot ft/(h \\cdot ft^2  \\cdot degF)$.
+   expressed as $Btu_{it} \\cdot ft/(h \\cdot ft^2 \\cdot degF)$.
   """^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -2907,7 +2907,7 @@ unit:BTU_IT-IN-PER-FT2-HR-DEG_F
   qudt:hasReciprocalUnit unit:DEG_F-HR-FT2-PER-BTU_IT-IN ;
   qudt:iec61360Code "0112/2///62720#UAA117" ;
   qudt:informativeReference "http://www.translatorscafe.com/cafe/EN/units-converter/thermal-conductivity/c/"^^xsd:anyURI ;
-  qudt:latexSymbol "$Btu_{it} \\cdot in/(h \\cdot ft^{2}  \\cdot degF)$"^^qudt:LatexString ;
+  qudt:latexSymbol "$Btu_{it} \\cdot in/(h \\cdot ft^{2} \\cdot degF)$"^^qudt:LatexString ;
   qudt:plainTextDescription "BTU (th) Inch per Square Foot Hour Degree Fahrenheit is an Imperial unit for 'Thermal Conductivity', an International British thermal unit inch per second per square foot per degree Fahrenheit is a unit of thermal conductivity in the US Customary Units and British Imperial Units." ;
   qudt:symbol "Btu{IT}·in/(ft²·h·°F)" ;
   qudt:ucumCode "[Btu_IT].[in_i].[ft_i]-2.h-1.[degF]-1"^^qudt:UCUMcs ;
@@ -3165,7 +3165,7 @@ unit:BTU_IT-PER-HR
 
 unit:BTU_IT-PER-HR-FT2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "$\\textit{BTU per Hour Square Foot}$ is an Imperial unit for  'Power Per Area' expressed as $Btu/(h-ft^2)$."^^qudt:LatexString ;
+  dcterms:description "$\\textit{BTU per Hour Square Foot}$ is an Imperial unit for 'Power Per Area' expressed as $Btu/(h-ft^2)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 3.154590745063048768072844787664884 ;
@@ -3437,7 +3437,7 @@ unit:BTU_IT-PER-SEC-FT-DEG_R
 
 unit:BTU_IT-PER-SEC-FT2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "$\\textit{BTU per Second Square Foot}$ is an Imperial unit for  'Power Per Area' expressed as $Btu/(s\\cdot ft^2)$."^^qudt:LatexString ;
+  dcterms:description "$\\textit{BTU per Second Square Foot}$ is an Imperial unit for 'Power Per Area' expressed as $Btu/(s\\cdot ft^2)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 11356.52668222697556506224123559358 ;
@@ -3581,7 +3581,7 @@ unit:BTU_TH-FT-PER-HR-FT2-DEG_F
 
 unit:BTU_TH-IN-PER-FT2-HR-DEG_F
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "${\\bf BTU_{th}}$, Inch per Square Foot Hour Degree Fahrenheit, is an Imperial unit for 'Thermal Conductivity' expressed as $Btu-in/(h-ft^{2}-degF)$. A thermochemical British thermal unit inch per second per square foot per degree Fahrenheit is a unit of thermal conductivity in the US Customary Units and British Imperial Units. $1 Btu_{th} \\cdot in/(h \\cdot ft^{2}  \\cdot degF)$ shows that one thermochemical BTU of heat per one hour moves through one square foot of material, which is one foot thick due to a temperature difference of one degree Fahrenheit."^^qudt:LatexString ;
+  dcterms:description "${\\bf BTU_{th}}$, Inch per Square Foot Hour Degree Fahrenheit, is an Imperial unit for 'Thermal Conductivity' expressed as $Btu-in/(h-ft^{2}-degF)$. A thermochemical British thermal unit inch per second per square foot per degree Fahrenheit is a unit of thermal conductivity in the US Customary Units and British Imperial Units. $1 Btu_{th} \\cdot in/(h \\cdot ft^{2} \\cdot degF)$ shows that one thermochemical BTU of heat per one hour moves through one square foot of material, which is one foot thick due to a temperature difference of one degree Fahrenheit."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.1441314337953849518810148731408574 ;
@@ -3594,7 +3594,7 @@ unit:BTU_TH-IN-PER-FT2-HR-DEG_F
   qudt:hasReciprocalUnit unit:DEG_F-HR-FT2-PER-BTU_TH-IN ;
   qudt:iec61360Code "0112/2///62720#UAA125" ;
   qudt:informativeReference "http://www.translatorscafe.com/cafe/EN/units-converter/thermal-conductivity/c/"^^xsd:anyURI ;
-  qudt:latexSymbol "$Btu_{th} \\cdot in/(h \\cdot ft^{2}  \\cdot degF)$"^^qudt:LatexString ;
+  qudt:latexSymbol "$Btu_{th} \\cdot in/(h \\cdot ft^{2} \\cdot degF)$"^^qudt:LatexString ;
   qudt:plainTextDescription "Unit of thermal conductivity according to the Imperial system of units" ;
   qudt:symbol "Btu{th}·in/(ft²·h·°F)" ;
   qudt:ucumCode "[Btu_th].[in_i].[ft_i]-2.h-1.[degF]-1"^^qudt:UCUMcs ;
@@ -4512,7 +4512,7 @@ unit:C-PER-KiloGM-SEC
 
 unit:C-PER-M
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Coulomb per Meter\" is a unit for  'Electric Charge Line Density' expressed as $C/m$."^^qudt:LatexString ;
+  dcterms:description "\"Coulomb per Meter\" is a unit for 'Electric Charge Line Density' expressed as $C/m$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -4737,7 +4737,7 @@ unit:C-PER-MilliM3
 
 unit:C2-M2-PER-J
   a qudt:Unit ;
-  dcterms:description "\"Square Coulomb Square Meter per Joule\" is a unit for  'Polarizability' expressed as $C^{2} m^{2} J^{-1}$."^^qudt:LatexString ;
+  dcterms:description "\"Square Coulomb Square Meter per Joule\" is a unit for 'Polarizability' expressed as $C^{2} m^{2} J^{-1}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -4772,7 +4772,7 @@ unit:C2-M2-PER-J
 
 unit:C3-M-PER-J2
   a qudt:Unit ;
-  dcterms:description "\"Cubic Coulomb Meter per Square Joule\" is a unit for  'Cubic Electric Dipole Moment Per Square Energy' expressed as $C^{3} m^{3} J^{-2}$."^^qudt:LatexString ;
+  dcterms:description "\"Cubic Coulomb Meter per Square Joule\" is a unit for 'Cubic Electric Dipole Moment Per Square Energy' expressed as $C^{3} m^{3} J^{-2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -4807,7 +4807,7 @@ unit:C3-M-PER-J2
 
 unit:C4-M4-PER-J3
   a qudt:Unit ;
-  dcterms:description "\"Quartic Coulomb Meter per Cubic Energy\" is a unit for  'Quartic Electric Dipole Moment Per Cubic Energy' expressed as $C^{4} m^{4} J^{-3}$."^^qudt:LatexString ;
+  dcterms:description "\"Quartic Coulomb Meter per Cubic Energy\" is a unit for 'Quartic Electric Dipole Moment Per Cubic Energy' expressed as $C^{4} m^{4} J^{-3}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -4828,7 +4828,7 @@ unit:C4-M4-PER-J3
 
 unit:CAL_15DEG_C
   a qudt:ContextualUnit, qudt:Unit ;
-  dcterms:description "unit for the quantity of heat which is required to warm up 1 g  of water, which is free of air, at a constant pressure of 101.325 kPa (the pressure of the standard atmosphere on sea level) from 14.5 degrees Celsius to 15.5 degrees Celsius"^^rdf:HTML ;
+  dcterms:description "unit for the quantity of heat which is required to warm up 1 g of water, which is free of air, at a constant pressure of 101.325 kPa (the pressure of the standard atmosphere on sea level) from 14.5 degrees Celsius to 15.5 degrees Celsius"^^rdf:HTML ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -4838,18 +4838,18 @@ unit:CAL_15DEG_C
   qudt:hasQuantityKind quantitykind:ThermalEnergy ;
   qudt:iec61360Code "0112/2///62720#UAB139" ;
   qudt:informativeReference "https://physics.nist.gov/cuu/pdf/sp811.pdf"^^xsd:anyURI ;
-  qudt:plainTextDescription "unit for the quantity of heat which is required to warm up 1 g  of water, which is free of air, at a constant pressure of 101.325 kPa (the pressure of the standard atmosphere on sea level) from 14.5 degrees Celsius to 15.5 degrees Celsius" ;
+  qudt:plainTextDescription "unit for the quantity of heat which is required to warm up 1 g of water, which is free of air, at a constant pressure of 101.325 kPa (the pressure of the standard atmosphere on sea level) from 14.5 degrees Celsius to 15.5 degrees Celsius" ;
   qudt:scalingOf unit:J ;
   qudt:symbol "cal{15 °C}" ;
   qudt:ucumCode "cal_[15]"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "A1" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Calorie (15 Degrees C)" ;
-  rdfs:label "Calorie (15 Degrees C)"@en .
+  rdfs:label "Calorie (15 °C)" ;
+  rdfs:label "Calorie (15 °C)"@en .
 
 unit:CAL_15_DEG_C
   a qudt:ContextualUnit, qudt:Unit ;
-  dcterms:description "unit for the quantity of heat which is required to warm up 1 g  of water, which is free of air, at a constant pressure of 101.325 kPa (the pressure of the standard atmosphere on sea level) from 14.5 degrees Celsius to 15.5 degrees Celsius"^^rdf:HTML ;
+  dcterms:description "unit for the quantity of heat which is required to warm up 1 g of water, which is free of air, at a constant pressure of 101.325 kPa (the pressure of the standard atmosphere on sea level) from 14.5 degrees Celsius to 15.5 degrees Celsius"^^rdf:HTML ;
   dcterms:isReplacedBy unit:CAL_15DEG_C ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:IMPERIAL ;
@@ -4862,15 +4862,15 @@ unit:CAL_15_DEG_C
   qudt:hasQuantityKind quantitykind:ThermalEnergy ;
   qudt:iec61360Code "0112/2///62720#UAB139" ;
   qudt:informativeReference "https://physics.nist.gov/cuu/pdf/sp811.pdf"^^xsd:anyURI ;
-  qudt:plainTextDescription "unit for the quantity of heat which is required to warm up 1 g  of water, which is free of air, at a constant pressure of 101.325 kPa (the pressure of the standard atmosphere on sea level) from 14.5 degrees Celsius to 15.5 degrees Celsius" ;
+  qudt:plainTextDescription "unit for the quantity of heat which is required to warm up 1 g of water, which is free of air, at a constant pressure of 101.325 kPa (the pressure of the standard atmosphere on sea level) from 14.5 degrees Celsius to 15.5 degrees Celsius" ;
   qudt:scalingOf unit:J ;
   qudt:symbol "cal{15 °C}" ;
   qudt:ucumCode "cal_[15]"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "A1" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q99488743> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Calorie (15 Degrees C)" ;
-  rdfs:label "Calorie (15 Degrees C)"@en .
+  rdfs:label "Calorie (15 °C)" ;
+  rdfs:label "Calorie (15 °C)"@en .
 
 unit:CAL_20DEG_C
   a qudt:ContextualUnit, qudt:Unit ;
@@ -8204,8 +8204,8 @@ unit:CCY_USD
   qudt:symbol "$" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q4917> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Dollar" ;
-  rdfs:label "Us Dollar"@en .
+  rdfs:label "US Dollar" ;
+  rdfs:label "US Dollar"@en .
 
 unit:CCY_USDT
   a qudt:DigitalCurrencyUnit, qudt:Unit ;
@@ -8623,7 +8623,7 @@ unit:CCY_ZWL
 
 unit:CD
   a qudt:Unit ;
-  dcterms:description "$\\textit{Candela}$ is a unit for  'Luminous Intensity' expressed as $cd$.  The candela is the SI base unit of luminous intensity; that is, power emitted by a light source in a particular direction, weighted by the luminosity function (a standardized model of the sensitivity of the human eye to different wavelengths, also known as the luminous efficiency function). A common candle emits light with a luminous intensity of roughly one candela."^^qudt:LatexString ;
+  dcterms:description "$\\textit{Candela}$ is a unit for 'Luminous Intensity' expressed as $cd$. The candela is the SI base unit of luminous intensity; that is, power emitted by a light source in a particular direction, weighted by the luminosity function (a standardized model of the sensitivity of the human eye to different wavelengths, also known as the luminous efficiency function). A common candle emits light with a luminous intensity of roughly one candela."^^qudt:LatexString ;
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 1.0 ;
   qudt:conversionMultiplierSN 1.0E0 ;
@@ -8683,7 +8683,7 @@ unit:CD-PER-FT2
 
 unit:CD-PER-IN2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Candela per Square Inch\" is a unit for  'Luminance' expressed as $cd/in^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Candela per Square Inch\" is a unit for 'Luminance' expressed as $cd/in^{2}$."^^qudt:LatexString ;
   qudt:conversionMultiplier 1550.0031000062000124000248000496 ;
   qudt:conversionMultiplierSN 1.5500031000062000124000248000496E3 ;
   qudt:expression "$cd/in^{2}$"^^qudt:LatexString ;
@@ -8886,8 +8886,8 @@ unit:CHAIN_US
   qudt:symbol "ch (US survey)" ;
   qudt:uneceCommonCode "M49" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Chain (based on U.s. Survey Foot)" ;
-  rdfs:label "Chain (based on U.s. Survey Foot)"@en .
+  rdfs:label "Chain (based on US Survey Foot)" ;
+  rdfs:label "Chain (based on US Survey Foot)"@en .
 
 unit:CHF-PER-KiloGM
   a qudt:Unit ;
@@ -9036,7 +9036,7 @@ unit:CP
 
 unit:CUP
   a qudt:Unit ;
-  dcterms:description "\"US Liquid Cup\" is a unit for  'Liquid Volume' expressed as $cup$."^^qudt:LatexString ;
+  dcterms:description "\"US Liquid Cup\" is a unit for 'Liquid Volume' expressed as $cup$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.00023658825 ;
   qudt:conversionMultiplierSN 2.3658825E-4 ;
@@ -9049,8 +9049,8 @@ unit:CUP
   qudt:ucumCode "[cup_us]"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "G21" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Cup" ;
-  rdfs:label "Us Liquid Cup"@en .
+  rdfs:label "US Liquid Cup" ;
+  rdfs:label "US Liquid Cup"@en .
 
 unit:CUP_US
   a qudt:Unit ;
@@ -9074,7 +9074,7 @@ unit:CUP_US
 
 unit:CWT_LONG
   a qudt:Unit ;
-  dcterms:description "\"Hundred Weight - Long\" is a unit for  'Mass' expressed as $cwt$."^^qudt:LatexString ;
+  dcterms:description "\"Hundred Weight - Long\" is a unit for 'Mass' expressed as $cwt$."^^qudt:LatexString ;
   qudt:conversionMultiplier 50.80235 ;
   qudt:conversionMultiplierSN 5.080235E1 ;
   qudt:exactMatch unit:Hundredweight_UK ;
@@ -9093,7 +9093,7 @@ unit:CWT_LONG
 
 unit:CWT_SHORT
   a qudt:Unit ;
-  dcterms:description "\"Hundred Weight - Short\" is a unit for  'Mass' expressed as $cwt$."^^qudt:LatexString ;
+  dcterms:description "\"Hundred Weight - Short\" is a unit for 'Mass' expressed as $cwt$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 45.359237 ;
   qudt:conversionMultiplierSN 4.5359237E1 ;
@@ -9109,7 +9109,7 @@ unit:CWT_SHORT
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Hundred Weight - Short" ;
   rdfs:label "Hundred Weight - Short"@en ;
-  skos:altLabel "U.S. hundredweight" .
+  skos:altLabel "US hundredweight" .
 
 unit:CYC
   a qudt:ContextualUnit, qudt:CountingUnit, qudt:Unit ;
@@ -9167,7 +9167,7 @@ unit:C_Ab
 unit:C_Ab-PER-CentiM2
   a qudt:Unit ;
   dcterms:description """Abcoulomb Per Square Centimeter is a unit in the category of Electric charge surface density. It is also known as abcoulombs per square centimeter, abcoulomb per square centimetre, abcoulombs per square centimetre, abcoulomb/square centimeter,abcoulomb/square centimetre. This unit is commonly used in the cgs unit system.
-Abcoulomb Per Square Centimeter (abcoulomb/cm2) has a dimension of $L_2TI$.  where $L$ is length, $T$ is time, and $I$ is electric current. It can be converted to the corresponding standard SI unit $C/m^2$ by multiplying its value by a factor of 100,000."""^^qudt:LatexString ;
+Abcoulomb Per Square Centimeter (abcoulomb/cm2) has a dimension of $L_2TI$. where $L$ is length, $T$ is time, and $I$ is electric current. It can be converted to the corresponding standard SI unit $C/m^2$ by multiplying its value by a factor of 100,000."""^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:conversionMultiplier 100000.0 ;
@@ -9374,7 +9374,7 @@ unit:CentiL
 
 unit:CentiM
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "A centimetre is a unit of length in the metric system, equal to one hundredth of a metre, which is the SI base unit of length. Centi is the SI prefix for a factor of $10^{-2}$.  The centimetre is the base unit of length in the now deprecated centimetre-gram-second (CGS) system of units."^^qudt:LatexString ;
+  dcterms:description "A centimetre is a unit of length in the metric system, equal to one hundredth of a metre, which is the SI base unit of length. Centi is the SI prefix for a factor of $10^{-2}$. The centimetre is the base unit of length in the now deprecated centimetre-gram-second (CGS) system of units."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -9493,7 +9493,7 @@ unit:CentiM-PER-KiloYR
 
 unit:CentiM-PER-SEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Centimeter per Second\" is a C.G.S System unit for  'Linear Velocity' expressed as $cm/s$."^^qudt:LatexString ;
+  dcterms:description "\"Centimeter per Second\" is a C.G.S System unit for 'Linear Velocity' expressed as $cm/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -9571,7 +9571,7 @@ unit:CentiM-PER-SEC-K
 
 unit:CentiM-PER-SEC2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "$\\textit{Centimeter per Square Second}$ is a C.G.S System unit for  $\\textit{Linear Acceleration}$ expressed as $cm/s^2$."^^qudt:LatexString ;
+  dcterms:description "$\\textit{Centimeter per Square Second}$ is a C.G.S System unit for $\\textit{Linear Acceleration}$ expressed as $cm/s^2$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -9687,7 +9687,7 @@ unit:CentiM2
 
 unit:CentiM2-MIN
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Square centimeter minute\" is a unit for  'Area Time' expressed as $cm^{2} . m$."^^qudt:LatexString ;
+  dcterms:description "\"Square centimeter minute\" is a unit for 'Area Time' expressed as $cm^{2} . m$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -9852,7 +9852,7 @@ unit:CentiM2-PER-V-SEC
 
 unit:CentiM2-SEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Square Centimeter Second\" is a C.G.S System unit for  'Area Time' expressed as $cm^2 . s$."^^qudt:LatexString ;
+  dcterms:description "\"Square Centimeter Second\" is a C.G.S System unit for 'Area Time' expressed as $cm^2 . s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -10455,7 +10455,7 @@ unit:CentiMOL-PER-L
 
 unit:CentiM_H2O
   a qudt:ContextualUnit, qudt:Unit ;
-  dcterms:description """$\\textit{Centimeter of Water}$ is a C.G.S System unit for  'Force Per Area' expressed as $cm_{H2O}$.
+  dcterms:description """$\\textit{Centimeter of Water}$ is a C.G.S System unit for 'Force Per Area' expressed as $cm_{H2O}$.
   """^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 98.0665 ;
@@ -10469,7 +10469,7 @@ unit:CentiM_H2O
   qudt:informativeReference "https://en.wikipedia.org/wiki/Centimetre_of_water?oldid=487656894"^^xsd:anyURI ;
   qudt:plainTextDescription "non SI conforming unit of pressure that corresponds to the static pressure generated by a water column with a height of 1 centimetre" ;
   qudt:scalingOf unit:PA ;
-  qudt:symbol "cmH₂0" ;
+  qudt:symbol "cmH₂O" ;
   qudt:ucumCode "cm[H2O]"^^qudt:UCUMcs ;
   qudt:udunitsCode "cmH2O" ;
   qudt:udunitsCode "cm_H2O" ;
@@ -10626,7 +10626,7 @@ unit:CentiN-M-PER-M2
 
 unit:CentiPOISE
   a qudt:Unit ;
-  dcterms:description """$\\textit{Centipoise}$ is a C.G.S System unit for  'Dynamic Viscosity' expressed as $cP$.
+  dcterms:description """$\\textit{Centipoise}$ is a C.G.S System unit for 'Dynamic Viscosity' expressed as $cP$.
   """^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -10679,7 +10679,7 @@ unit:CentiPOISE-PER-K
 
 unit:CentiST
   a qudt:Unit ;
-  dcterms:description """$\\textit{Centistokes}$ is a C.G.S System unit for  'Kinematic Viscosity' expressed as $cSt$.
+  dcterms:description """$\\textit{Centistokes}$ is a C.G.S System unit for 'Kinematic Viscosity' expressed as $cSt$.
   """^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.000001 ;
@@ -10809,7 +10809,7 @@ unit:DAY-PER-NUM
 
 unit:DAY_Sidereal
   a qudt:Unit ;
-  dcterms:description "The length of time which passes between a given fixed star in the sky crossing a given projected meridian (line of longitude). The sidereal day is $23 h 56 m 4.1 s$, slightly shorter than the solar day because the Earth 's orbital motion about the Sun  means the Earth  has to rotate slightly more than one turn with respect to the \"fixed\" stars in order to reach the same Earth-Sun orientation. Another way of thinking about the difference is that it amounts to $1/365.2425^{th}$ of a day per day, since even if the Earth  did not spin on its axis at all, the Sun  would appear to make one rotation around the Earth  as the Earth  completed a single orbit (which takes one year)."^^qudt:LatexString ;
+  dcterms:description "The length of time which passes between a given fixed star in the sky crossing a given projected meridian (line of longitude). The sidereal day is $23 h 56 m 4.1 s$, slightly shorter than the solar day because the Earth 's orbital motion about the Sun means the Earth has to rotate slightly more than one turn with respect to the \"fixed\" stars in order to reach the same Earth-Sun orientation. Another way of thinking about the difference is that it amounts to $1/365.2425^{th}$ of a day per day, since even if the Earth did not spin on its axis at all, the Sun would appear to make one rotation around the Earth as the Earth completed a single orbit (which takes one year)."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -10870,7 +10870,7 @@ unit:DEATHS-PER-MegaINDIV-YR
 
 unit:DEBYE
   a qudt:Unit ;
-  dcterms:description "\"Debye\" is a C.G.S System unit for  'Electric Dipole Moment' expressed as $D$."^^qudt:LatexString ;
+  dcterms:description "\"Debye\" is a C.G.S System unit for 'Electric Dipole Moment' expressed as $D$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.00000000000000000000000000000333564 ;
   qudt:conversionMultiplierSN 3.33564E-30 ;
@@ -10911,7 +10911,7 @@ unit:DECADE
 
 unit:DEG
   a qudt:Unit ;
-  dcterms:description "A degree (in full, a degree of arc, arc degree, or arcdegree), usually denoted by $^\\circ$ (the degree symbol), is a measurement of plane angle, representing 1/360 of a full rotation; one degree is equivalent to  $2\\pi /360 rad$, $0.017453 rad$. It is not an SI unit, as the SI unit for angles is radian, but is an accepted SI unit."^^qudt:LatexString ;
+  dcterms:description "A degree (in full, a degree of arc, arc degree, or arcdegree), usually denoted by $^\\circ$ (the degree symbol), is a measurement of plane angle, representing 1/360 of a full rotation; one degree is equivalent to $2\\pi /360 rad$, $0.017453 rad$. It is not an SI unit, as the SI unit for angles is radian, but is an accepted SI unit."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -10943,7 +10943,7 @@ unit:DEG
 
 unit:DEG-PER-HR
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Degree per Hour\" is an Imperial unit for  'Angular Velocity' expressed as $deg/h$."^^qudt:LatexString ;
+  dcterms:description "\"Degree per Hour\" is an Imperial unit for 'Angular Velocity' expressed as $deg/h$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:conversionMultiplier 0.000004848136811095359935899141023579481 ;
   qudt:conversionMultiplierSN 4.848136811095359935899141023579481E-6 ;
@@ -10978,7 +10978,7 @@ unit:DEG-PER-M
 
 unit:DEG-PER-MIN
   a qudt:Unit ;
-  dcterms:description "A unit of measure for the rate of change of plane angle, $d\\omega / dt$,  in durations of one minute.The vector $\\omega$ is directed along the axis of rotation in the direction for which the rotation is clockwise."^^qudt:LatexString ;
+  dcterms:description "A unit of measure for the rate of change of plane angle, $d\\omega / dt$, in durations of one minute.The vector $\\omega$ is directed along the axis of rotation in the direction for which the rotation is clockwise."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.0002908882086657215961539484614147689 ;
   qudt:conversionMultiplierSN 2.908882086657215961539484614147689E-4 ;
   qudt:expression "$deg-per-min$"^^qudt:LatexString ;
@@ -10993,7 +10993,7 @@ unit:DEG-PER-MIN
 
 unit:DEG-PER-SEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Degree per Second\" is an Imperial unit for  'Angular Velocity' expressed as $deg/s$."^^qudt:LatexString ;
+  dcterms:description "\"Degree per Second\" is an Imperial unit for 'Angular Velocity' expressed as $deg/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:conversionMultiplier 0.01745329251994329576923690768488613 ;
   qudt:conversionMultiplierSN 1.745329251994329576923690768488613E-2 ;
@@ -11126,8 +11126,8 @@ unit:DEGREE_BAUME_US_HEAVY
   qudt:symbol "°Bé{US Heavy}" ;
   qudt:uneceCommonCode "J15" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Degree Baume (us Heavy)" ;
-  rdfs:label "Degree Baume (us Heavy)"@en .
+  rdfs:label "Degree Baume (US Heavy)" ;
+  rdfs:label "Degree Baume (US Heavy)"@en .
 
 unit:DEGREE_BAUME_US_LIGHT
   a qudt:Unit ;
@@ -11143,8 +11143,8 @@ unit:DEGREE_BAUME_US_LIGHT
   qudt:symbol "°Bé{US Light}" ;
   qudt:uneceCommonCode "J16" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Degree Baume (us Light)" ;
-  rdfs:label "Degree Baume (us Light)"@en .
+  rdfs:label "Degree Baume (US Light)" ;
+  rdfs:label "Degree Baume (US Light)"@en .
 
 unit:DEGREE_BRIX
   a qudt:Unit ;
@@ -12124,14 +12124,14 @@ unit:DPI
 
 unit:DRAM_UK
   a qudt:Unit ;
-  dcterms:description "non SI-conforming unit of mass comes from the Anglo-American Troy or Apothecaries' Weight System of units which is  mainly used in England, in the Netherlands and in the USA as a commercial weight"^^rdf:HTML ;
+  dcterms:description "non SI-conforming unit of mass comes from the Anglo-American Troy or Apothecaries' Weight System of units which iainly used in England, in the Netherlands and in the USA as a commercial weight"^^rdf:HTML ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:conversionMultiplier 0.0038879346 ;
   qudt:conversionMultiplierSN 3.8879346E-3 ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T0D0 ;
   qudt:hasQuantityKind quantitykind:Mass ;
   qudt:iec61360Code "0112/2///62720#UAB181" ;
-  qudt:plainTextDescription "non SI-conforming unit of mass comes from the Anglo-American Troy or Apothecaries' Weight System of units which is  mainly used in England, in the Netherlands and in the USA as a commercial weight" ;
+  qudt:plainTextDescription "non SI-conforming unit of mass comes from the Anglo-American Troy or Apothecaries' Weight System of units which is mainly used in England, in the Netherlands and in the USA as a commercial weight" ;
   qudt:scalingOf unit:KiloGM ;
   qudt:symbol "dr{UK}" ;
   qudt:ucumCode "[dr_ap]"^^qudt:UCUMcs ;
@@ -12181,7 +12181,7 @@ unit:DU
 
 unit:DWT
   a qudt:Unit ;
-  dcterms:description "\"Penny Weight\" is a unit for  'Mass' expressed as $dwt$."^^qudt:LatexString ;
+  dcterms:description "\"Penny Weight\" is a unit for 'Mass' expressed as $dwt$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.00155517384 ;
   qudt:conversionMultiplierSN 1.55517384E-3 ;
@@ -12234,7 +12234,7 @@ unit:DYN
 
 unit:DYN-CentiM
   a qudt:Unit ;
-  dcterms:description "\"Dyne Centimeter\" is a C.G.S System unit for  'Torque' expressed as $dyn-cm$."^^qudt:LatexString ;
+  dcterms:description "\"Dyne Centimeter\" is a C.G.S System unit for 'Torque' expressed as $dyn-cm$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:conversionMultiplier 0.0000001 ;
@@ -12293,7 +12293,7 @@ unit:DYN-PER-CentiM
 
 unit:DYN-PER-CentiM2
   a qudt:Unit ;
-  dcterms:description "\"Dyne per Square Centimeter\" is a C.G.S System unit for  'Force Per Area' expressed as $dyn/cm^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Dyne per Square Centimeter\" is a C.G.S System unit for 'Force Per Area' expressed as $dyn/cm^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:conversionMultiplier 0.1 ;
@@ -12397,7 +12397,7 @@ unit:Da
 
 unit:Debye
   a qudt:Unit ;
-  dcterms:description "\"Debye\" is a C.G.S System unit for  'Electric Dipole Moment' expressed as $D$."^^qudt:LatexString ;
+  dcterms:description "\"Debye\" is a C.G.S System unit for 'Electric Dipole Moment' expressed as $D$."^^qudt:LatexString ;
   dcterms:isReplacedBy unit:DEBYE ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.00000000000000000000000000000333564 ;
@@ -12824,7 +12824,7 @@ unit:DeciB_A
 
 unit:DeciB_C
   a qudt:Unit ;
-  dcterms:description "\"Decibel Carrier Unit\" is a logarithmic unit for  'Signal Detection Threshold' expressed as $dBc$."^^qudt:LatexString ;
+  dcterms:description "\"Decibel Carrier Unit\" is a logarithmic unit for 'Signal Detection Threshold' expressed as $dBc$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -12861,7 +12861,7 @@ unit:DeciB_ISO
 
 unit:DeciB_M
   a qudt:DimensionlessUnit, qudt:Unit ;
-  dcterms:description "\"Decibel Referred to 1mw\" is a 'Logarithmic Dimensionless Ratio' expressed as $dBm$."^^qudt:LatexString ;
+  dcterms:description "\"Decibel Referred to 1 mW\" is a 'Logarithmic Dimensionless Ratio' expressed as $dBm$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -12882,8 +12882,8 @@ unit:DeciB_M
   qudt:uneceCommonCode "DBM" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q777017> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Decibel Referred to 1mw" ;
-  rdfs:label "Decibel Referred to 1mw"@en .
+  rdfs:label "Decibel Referred to 1 mW" ;
+  rdfs:label "Decibel Referred to 1 mW"@en .
 
 unit:DeciB_Z
   a qudt:Unit ;
@@ -13571,7 +13571,7 @@ unit:EQ
 
 unit:ERG
   a qudt:Unit ;
-  dcterms:description "An erg is the unit of energy and mechanical work in the centimetre-gram-second (CGS) system of units, symbol 'erg'. Its name is derived from the Greek ergon, meaning 'work'. An erg is the amount of work done by a force of one dyne exerted for a distance of one centimeter. In the CGS base units, it is equal to one gram centimeter-squared per second-squared ($g \\cdot cm^2/s^2$). It is thus equal to $10^{-7}$ joules or 100 nanojoules in SI units. $1 erg = 10^{-7} J = 100 nJ$,  $1 erg = 624.15 GeV = 6.2415 \\times 10^{11} eV$, $1 erg = 1 dyne\\cdot cm = 1 g \\cdot cm^2/s^2$."^^qudt:LatexString ;
+  dcterms:description "An erg is the unit of energy and mechanical work in the centimetre-gram-second (CGS) system of units, symbol 'erg'. Its name is derived from the Greek ergon, meaning 'work'. An erg is the amount of work done by a force of one dyne exerted for a distance of one centimeter. In the CGS base units, it is equal to one gram centimeter-squared per second-squared ($g \\cdot cm^2/s^2$). It is thus equal to $10^{-7}$ joules or 100 nanojoules in SI units. $1 erg = 10^{-7} J = 100 nJ$, $1 erg = 624.15 GeV = 6.2415 \\times 10^{11} eV$, $1 erg = 1 dyne\\cdot cm = 1 g \\cdot cm^2/s^2$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:conversionMultiplier 0.0000001 ;
@@ -13680,7 +13680,7 @@ unit:ERG-PER-CentiM2
 
 unit:ERG-PER-CentiM2-SEC
   a qudt:Unit ;
-  dcterms:description "\"Erg per Square Centimeter Second\" is a C.G.S System unit for  'Power Per Area' expressed as $erg/(cm^{2}-s)$."^^qudt:LatexString ;
+  dcterms:description "\"Erg per Square Centimeter Second\" is a C.G.S System unit for 'Power Per Area' expressed as $erg/(cm^{2}-s)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:conversionMultiplier 0.001 ;
@@ -13761,7 +13761,7 @@ unit:ERG-PER-GM-SEC
 
 unit:ERG-PER-SEC
   a qudt:Unit ;
-  dcterms:description "\"Erg per Second\" is a C.G.S System unit for  'Power' expressed as $erg/s$."^^qudt:LatexString ;
+  dcterms:description "\"Erg per Second\" is a C.G.S System unit for 'Power' expressed as $erg/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:conversionMultiplier 0.0000001 ;
@@ -13956,7 +13956,7 @@ unit:EV-PER-T
 
 unit:EV-SEC
   a qudt:Unit ;
-  dcterms:description "\"Electron Volt Second\" is a unit for  'Angular Momentum' expressed as $eV s$."^^qudt:LatexString ;
+  dcterms:description "\"Electron Volt Second\" is a unit for 'Angular Momentum' expressed as $eV s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -14363,7 +14363,7 @@ unit:ExbiBYTE
 
 unit:F
   a qudt:Unit ;
-  dcterms:description "\"Faraday\" is a unit for  'Electric Charge' expressed as $F$."^^qudt:LatexString ;
+  dcterms:description "\"Faraday\" is a unit for 'Electric Charge' expressed as $F$."^^qudt:LatexString ;
   qudt:conversionMultiplier 96485.3399 ;
   qudt:conversionMultiplierSN 9.64853399E4 ;
   qudt:hasDimensionVector qkdv:A0E1L0I0M0H0T1D0 ;
@@ -14378,7 +14378,7 @@ unit:F
 
 unit:FA
   a qudt:Unit ;
-  dcterms:description "\"Fractional area\" is a unit for  'Solid Angle' expressed as $fa$."^^qudt:LatexString ;
+  dcterms:description "\"Fractional area\" is a unit for 'Solid Angle' expressed as $fa$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -14600,7 +14600,7 @@ unit:FARAD_Stat
 
 unit:FATH
   a qudt:Unit ;
-  dcterms:description "A fathom = 1.8288 meters, is a unit of length in the imperial and the U.S. customary systems, used especially for measuring the depth of water. There are two yards in an imperial or U.S. fathom. Originally based on the distance between the man's outstretched arms, the size of a fathom has varied slightly depending on whether it was defined as a thousandth of an (Admiralty) nautical mile or as a multiple of the imperial yard.  Abbreviations: f, fath, fm, fth, fthm."^^rdf:HTML ;
+  dcterms:description "A fathom = 1.8288 meters, is a unit of length in the imperial and the U.S. customary systems, used especially for measuring the depth of water. There are two yards in an imperial or U.S. fathom. Originally based on the distance between the man's outstretched arms, the size of a fathom has varied slightly depending on whether it was defined as a thousandth of an (Admiralty) nautical mile or as a multiple of the imperial yard. Abbreviations: f, fath, fm, fth, fthm."^^rdf:HTML ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1.8288 ;
@@ -14642,7 +14642,7 @@ unit:FBM
 
 unit:FC
   a qudt:Unit ;
-  dcterms:description "\"Foot Candle\" is a unit for  'Luminous Flux Per Area' expressed as $fc$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Candle\" is a unit for 'Luminous Flux Per Area' expressed as $fc$."^^qudt:LatexString ;
   qudt:conversionMultiplier 10.764 ;
   qudt:conversionMultiplierSN 1.0764E1 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Foot-candle"^^xsd:anyURI ;
@@ -14712,7 +14712,7 @@ unit:FM
 
 unit:FR
   a qudt:Unit ;
-  dcterms:description "\"Franklin\" is a unit for  'Electric Charge' expressed as $Fr$."^^qudt:LatexString ;
+  dcterms:description "\"Franklin\" is a unit for 'Electric Charge' expressed as $Fr$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.00000000033356409519815204957557671447492 ;
   qudt:conversionMultiplierSN 3.3356409519815204957557671447492E-10 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Franklin"^^xsd:anyURI ;
@@ -14773,7 +14773,7 @@ unit:FRAME
 
 unit:FRAME-PER-SEC
   a qudt:ContextualUnit, qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Frame per Second\" is a unit for  'Video Frame Rate' expressed as $fps$."^^qudt:LatexString ;
+  dcterms:description "\"Frame per Second\" is a unit for 'Video Frame Rate' expressed as $fps$."^^qudt:LatexString ;
   qudt:conversionMultiplier 1.0 ;
   qudt:conversionMultiplierSN 1.0E0 ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
@@ -14837,8 +14837,8 @@ unit:FT-HR-PER-GAL_US
   qudt:symbol "ft·h/gal{US}" ;
   qudt:ucumCode "[ft_i].h.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Foot Hour per Us Gallon" ;
-  rdfs:label "Foot Hour per Us Gallon"@en .
+  rdfs:label "Foot Hour per Gallon (US)" ;
+  rdfs:label "Foot Hour per Gallon (US)"@en .
 
 unit:FT-HR-PER-IN3
   a qudt:Unit ;
@@ -14856,7 +14856,7 @@ unit:FT-HR-PER-IN3
 
 unit:FT-LB_F
   a qudt:Unit ;
-  dcterms:description "\"Foot Pound Force\" is an Imperial unit for  'Energy And Work' expressed as $ft-lbf$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Pound Force\" is an Imperial unit for 'Energy And Work' expressed as $ft-lbf$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1.355817948331400399999999999999999 ;
@@ -14881,7 +14881,7 @@ unit:FT-LB_F
 
 unit:FT-LB_F-PER-FT2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Foot Pound per Square Foot\" is an Imperial unit for  'Energy Per Area' expressed as $ft-lbf/ft^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Pound per Square Foot\" is an Imperial unit for 'Energy Per Area' expressed as $ft-lbf/ft^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 14.59390293720636482939632545931758 ;
@@ -14899,7 +14899,7 @@ unit:FT-LB_F-PER-FT2
 
 unit:FT-LB_F-PER-FT2-SEC
   a qudt:Unit ;
-  dcterms:description "\"Foot Pound Force per Square Foot Second\" is an Imperial unit for  'Power Per Area' expressed as $ft \\cdot lbf/(ft^2 \\cdot s)$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Pound Force per Square Foot Second\" is an Imperial unit for 'Power Per Area' expressed as $ft \\cdot lbf/(ft^2 \\cdot s)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 14.59390293720636482939632545931758 ;
@@ -14918,7 +14918,7 @@ unit:FT-LB_F-PER-FT2-SEC
 
 unit:FT-LB_F-PER-HR
   a qudt:Unit ;
-  dcterms:description "\"Foot Pound Force per Hour\" is an Imperial unit for  'Power' expressed as $ft-lbf/h$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Pound Force per Hour\" is an Imperial unit for 'Power' expressed as $ft-lbf/h$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0003766160967587223333333333333333332 ;
@@ -14938,7 +14938,7 @@ unit:FT-LB_F-PER-HR
 
 unit:FT-LB_F-PER-M2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Foot Pound Force per Square Meter\" is a unit for  'Energy Per Area' expressed as $ft-lbf/m^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Pound Force per Square Meter\" is a unit for 'Energy Per Area' expressed as $ft-lbf/m^{2}$."^^qudt:LatexString ;
   qudt:conversionMultiplier 1.355817948331400399999999999999999 ;
   qudt:conversionMultiplierSN 1.355817948331400399999999999999999E0 ;
   qudt:expression "$ft-lbf/m^{2}$"^^qudt:LatexString ;
@@ -14953,7 +14953,7 @@ unit:FT-LB_F-PER-M2
 
 unit:FT-LB_F-PER-MIN
   a qudt:Unit ;
-  dcterms:description "\"Foot Pound Force per Minute\" is an Imperial unit for  'Power' expressed as $ft-lbf/min$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Pound Force per Minute\" is an Imperial unit for 'Power' expressed as $ft-lbf/min$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.02259696580552333999999999999999999 ;
@@ -14973,7 +14973,7 @@ unit:FT-LB_F-PER-MIN
 
 unit:FT-LB_F-PER-SEC
   a qudt:Unit ;
-  dcterms:description "\"Foot Pound Force per Second\" is an Imperial unit for  'Power' expressed as $ft-lbf/s$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Pound Force per Second\" is an Imperial unit for 'Power' expressed as $ft-lbf/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1.355817948331400399999999999999999 ;
@@ -14993,7 +14993,7 @@ unit:FT-LB_F-PER-SEC
 
 unit:FT-LB_F-SEC
   a qudt:Unit ;
-  dcterms:description "\"Foot Pound Force Second\" is a unit for  'Angular Momentum' expressed as $lbf / s$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Pound Force Second\" is a unit for 'Angular Momentum' expressed as $lbf / s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1.355817948331400399999999999999999 ;
@@ -15010,7 +15010,7 @@ unit:FT-LB_F-SEC
 
 unit:FT-PDL
   a qudt:Unit ;
-  dcterms:description "\"Foot Poundal\" is an Imperial unit for  'Energy And Work' expressed as $ft-pdl$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Poundal\" is an Imperial unit for 'Energy And Work' expressed as $ft-pdl$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0421401100938048 ;
@@ -15031,7 +15031,7 @@ unit:FT-PDL
 
 unit:FT-PER-DAY
   a qudt:Unit ;
-  dcterms:description "\"Foot per Day\" is an Imperial unit for  'Linear Velocity' expressed as $ft/d$."^^qudt:LatexString ;
+  dcterms:description "\"Foot per Day\" is an Imperial unit for 'Linear Velocity' expressed as $ft/d$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.000003527777777777777777777777777777777 ;
@@ -15068,7 +15068,7 @@ unit:FT-PER-DEG_F
 
 unit:FT-PER-HR
   a qudt:Unit ;
-  dcterms:description "\"Foot per Hour\" is an Imperial unit for  'Linear Velocity' expressed as $ft/h$."^^qudt:LatexString ;
+  dcterms:description "\"Foot per Hour\" is an Imperial unit for 'Linear Velocity' expressed as $ft/h$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.00008466666666666666666666666666666667 ;
@@ -15090,7 +15090,7 @@ unit:FT-PER-HR
 
 unit:FT-PER-MIN
   a qudt:Unit ;
-  dcterms:description "\"Foot per Minute\" is an Imperial unit for  'Linear Velocity' expressed as $ft/min$."^^qudt:LatexString ;
+  dcterms:description "\"Foot per Minute\" is an Imperial unit for 'Linear Velocity' expressed as $ft/min$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.005080000000000000000000000000000001 ;
@@ -15226,8 +15226,8 @@ unit:FT-SEC-PER-GAL_US
   qudt:symbol "ft·s/gal{US}" ;
   qudt:ucumCode "[ft_i].s.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Foot Second per Us Gallon" ;
-  rdfs:label "Foot Second per Us Gallon"@en .
+  rdfs:label "Foot Second per Gallon (US)" ;
+  rdfs:label "Foot Second per Gallon (US)"@en .
 
 unit:FT-SEC-PER-IN3
   a qudt:Unit ;
@@ -15340,7 +15340,7 @@ unit:FT2-PER-BTU_IT-IN
 
 unit:FT2-PER-HR
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "$\\textit{Square Foot per Hour}$ is an Imperial unit for $\\textit{Kinematic Viscosity}$ and  $\\textit{Thermal Diffusivity}$ expressed as $ft^{2}/hr$."^^qudt:LatexString ;
+  dcterms:description "$\\textit{Square Foot per Hour}$ is an Imperial unit for $\\textit{Kinematic Viscosity}$ and $\\textit{Thermal Diffusivity}$ expressed as $ft^{2}/hr$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0000258064 ;
@@ -15362,7 +15362,7 @@ unit:FT2-PER-HR
 
 unit:FT2-PER-SEC
   a qudt:Unit ;
-  dcterms:description "\"Square Foot per Second\" is an Imperial unit for  'Kinematic Viscosity' expressed as $ft^{2}/s$."^^qudt:LatexString ;
+  dcterms:description "\"Square Foot per Second\" is an Imperial unit for 'Kinematic Viscosity' expressed as $ft^{2}/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.09290304 ;
@@ -15501,7 +15501,7 @@ unit:FT3-PER-LB
 
 unit:FT3-PER-MIN
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Cubic Foot per Minute\" is an Imperial unit for  'Volume Per Unit Time' expressed as $ft^3/min$."^^qudt:LatexString ;
+  dcterms:description "\"Cubic Foot per Minute\" is an Imperial unit for 'Volume Per Unit Time' expressed as $ft^3/min$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0004719474432000000000000000000000001 ;
@@ -15595,7 +15595,7 @@ unit:FT4
 
 unit:FT_H2O
   a qudt:Unit ;
-  dcterms:description "\"Foot of Water\" is a unit for  'Force Per Area' expressed as $ftH2O$."^^qudt:LatexString ;
+  dcterms:description "\"Foot of Water\" is a unit for 'Force Per Area' expressed as $ftH2O$."^^qudt:LatexString ;
   qudt:conversionMultiplier 2989.067 ;
   qudt:conversionMultiplierSN 2.989067E3 ;
   qudt:exactMatch unit:FT_H2O_39dot2DEG_F ;
@@ -15604,7 +15604,7 @@ unit:FT_H2O
   qudt:hasQuantityKind quantitykind:VapourPressure ;
   qudt:iec61360Code "0112/2///62720#UAA463" ;
   qudt:scalingOf unit:PA ;
-  qudt:symbol "ftH₂0" ;
+  qudt:symbol "ftH₂O" ;
   qudt:ucumCode "[ft_i'H2O]"^^qudt:UCUMcs ;
   qudt:udunitsCode "ftH2O" ;
   qudt:udunitsCode "fth2o" ;
@@ -15666,8 +15666,8 @@ unit:FT_US
   qudt:uneceCommonCode "M51" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q61749573> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Survey Foot" ;
-  rdfs:label "Us Survey Foot"@en .
+  rdfs:label "US Survey Foot" ;
+  rdfs:label "US Survey Foot"@en .
 
 unit:FUR
   a qudt:DerivedUnit, qudt:Unit ;
@@ -16090,7 +16090,7 @@ unit:FemtoV
 
 unit:G
   a qudt:Unit ;
-  dcterms:description "\"Gravity\" is a unit for  'Linear Acceleration' expressed as $G$."^^qudt:LatexString ;
+  dcterms:description "\"Gravity\" is a unit for 'Linear Acceleration' expressed as $G$."^^qudt:LatexString ;
   qudt:conversionMultiplier 9.80665 ;
   qudt:conversionMultiplierSN 9.80665E0 ;
   qudt:factorUnitScalar 9.80665 ;
@@ -16264,7 +16264,7 @@ unit:GAL_UK-PER-SEC
 
 unit:GAL_US
   a qudt:Unit ;
-  dcterms:description "\"US Gallon\" is a unit for  'Liquid Volume' expressed as $galUS$."^^qudt:LatexString ;
+  dcterms:description "\"US Gallon\" is a unit for 'Liquid Volume' expressed as $galUS$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.003785411784 ;
   qudt:conversionMultiplierSN 3.785411784E-3 ;
@@ -16282,13 +16282,13 @@ unit:GAL_US
   qudt:uneceCommonCode "GLL" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q23925413> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Gallon" ;
-  rdfs:label "Us Gallon"@en ;
+  rdfs:label "Gallon (US)" ;
+  rdfs:label "Gallon (US)"@en ;
   skos:altLabel "Queen Anne's wine gallon" .
 
 unit:GAL_US-PER-DAY
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"US Gallon per Day\" is a unit for  'Volume Per Unit Time' expressed as $gal/d$."^^qudt:LatexString ;
+  dcterms:description "\"US Gallon per Day\" is a unit for 'Volume Per Unit Time' expressed as $gal/d$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.00000004381263638888888888888888888888887 ;
   qudt:conversionMultiplierSN 4.381263638888888888888888888888887E-8 ;
@@ -16302,8 +16302,8 @@ unit:GAL_US-PER-DAY
   qudt:ucumCode "[gal_us].d-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "GB" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Gallon per Day" ;
-  rdfs:label "Us Gallon per Day"@en .
+  rdfs:label "Gallon (US) per Day" ;
+  rdfs:label "Gallon (US) per Day"@en .
 
 unit:GAL_US-PER-HR
   a qudt:Unit ;
@@ -16320,12 +16320,12 @@ unit:GAL_US-PER-HR
   qudt:ucumCode "[gal_us].h-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "G50" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Gallon per Hour" ;
-  rdfs:label "Us Gallon per Hour"@en .
+  rdfs:label "Gallon (US) per Hour" ;
+  rdfs:label "Gallon (US) per Hour"@en .
 
 unit:GAL_US-PER-MIN
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"US Gallon per Minute\" is a C.G.S System unit for  'Volume Per Unit Time' expressed as $gal/min$."^^qudt:LatexString ;
+  dcterms:description "\"US Gallon per Minute\" is a C.G.S System unit for 'Volume Per Unit Time' expressed as $gal/min$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.00006309019640000000000000000000000001 ;
   qudt:conversionMultiplierSN 6.309019640000000000000000000000001E-5 ;
@@ -16340,8 +16340,8 @@ unit:GAL_US-PER-MIN
   qudt:uneceCommonCode "G2" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q64996135> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Gallon per Minute" ;
-  rdfs:label "Us Gallon per Minute"@en .
+  rdfs:label "Gallon (US) per Minute" ;
+  rdfs:label "Gallon (US) per Minute"@en .
 
 unit:GAL_US-PER-SEC
   a qudt:Unit ;
@@ -16358,12 +16358,12 @@ unit:GAL_US-PER-SEC
   qudt:ucumCode "[gal_us].s-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "K30" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Gallon per Second" ;
-  rdfs:label "Us Gallon per Second"@en .
+  rdfs:label "Gallon (US) per Second" ;
+  rdfs:label "Gallon (US) per Second"@en .
 
 unit:GAL_US_DRY
   a qudt:Unit ;
-  dcterms:description "\"Dry Gallon US\" is a unit for  'Dry Volume' expressed as $dry_gal$."^^qudt:LatexString ;
+  dcterms:description "\"Dry Gallon US\" is a unit for 'Dry Volume' expressed as $dry_gal$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.00440488377086 ;
   qudt:conversionMultiplierSN 4.40488377086E-3 ;
@@ -16388,7 +16388,7 @@ unit:GAL_US_DRY
 
 unit:GAMMA
   a qudt:Unit ;
-  dcterms:description "\"Gamma\" is a C.G.S System unit for  'Magnetic Field'."^^rdf:HTML ;
+  dcterms:description "\"Gamma\" is a C.G.S System unit for 'Magnetic Field'."^^rdf:HTML ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.000000001 ;
   qudt:conversionMultiplierSN 1.0E-9 ;
@@ -18358,7 +18358,7 @@ unit:GM_Carbon-PER-M2-DAY
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
   qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
   qudt:plainTextDescription "A metric unit of volume over time indicating the amount generated across one square meter over a day. Used to express productivity of an ecosystem." ;
-  qudt:symbol "g{carbon}/(m²·day)" ;
+  qudt:symbol "g{carbon}/(m²·d)" ;
   qudt:ucumCode "g.m-2.d-1{C}"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Gram of Carbon per Square Meter Day"@en-US ;
@@ -18384,7 +18384,7 @@ unit:GM_DRY
 
 unit:GM_F
   a qudt:Unit ;
-  dcterms:description "\"Gram Force\" is a unit for  'Force' expressed as $gf$."^^qudt:LatexString ;
+  dcterms:description "\"Gram Force\" is a unit for 'Force' expressed as $gf$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.00980665 ;
   qudt:conversionMultiplierSN 9.80665E-3 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Kilogram-force"^^xsd:anyURI ;
@@ -18443,7 +18443,7 @@ unit:GM_Nitrogen-PER-M2-DAY
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
   qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
   qudt:plainTextDescription "A metric unit of volume over time indicating the amount of Nitrogen generated across one square meter over a day. Used to express productivity of an ecosystem." ;
-  qudt:symbol "g{nitrogen}/(m²·day)" ;
+  qudt:symbol "g{nitrogen}/(m²·d)" ;
   qudt:ucumCode "g.m-2.d-1{N}"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Gram of Nitrogen per Square Meter Day"@en-US ;
@@ -18453,7 +18453,7 @@ unit:GM_Nitrogen-PER-M2-DAY
 
 unit:GON
   a qudt:Unit ;
-  dcterms:description "\"Gon\" is a C.G.S System unit for  'Plane Angle' expressed as $gon$."^^qudt:LatexString ;
+  dcterms:description "\"Gon\" is a C.G.S System unit for 'Plane Angle' expressed as $gon$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -18507,7 +18507,7 @@ unit:GR
 
 unit:GRAD
   a qudt:Unit ;
-  dcterms:description "\"Grad\" is a unit for  'Plane Angle' expressed as $grad$."^^qudt:LatexString ;
+  dcterms:description "\"Grad\" is a unit for 'Plane Angle' expressed as $grad$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -18537,7 +18537,7 @@ unit:GRAD
 
 unit:GRAIN
   a qudt:Unit ;
-  dcterms:description "A grain is a unit of measurement of mass that is nominally based upon the mass of a single seed of a cereal.  The grain is the only unit of mass measure common to the three traditional English mass and weight systems; the obsolete Tower grain was, by definition, exactly  /64 of a troy grain. Since 1958, the grain or troy grain measure has been defined in terms of units of mass in the International System of Units as precisely 64.79891 milligrams. Thus, $1 gram \\approx 15.4323584 grains$.  There are precisely 7,000 grains per avoirdupois pound in the imperial and U.S. customary units, and 5,760 grains in the Troy pound."^^qudt:LatexString ;
+  dcterms:description "A grain is a unit of measurement of mass that is nominally based upon the mass of a single seed of a cereal. The grain is the only unit of mass measure common to the three traditional English mass and weight systems; the obsolete Tower grain was, by definition, exactly /64 of a troy grain. Since 1958, the grain or troy grain measure has been defined in terms of units of mass in the International System of Units as precisely 64.79891 milligrams. Thus, $1 gram \\approx 15.4323584 grains$. There are precisely 7,000 grains per avoirdupois pound in the imperial and U.S. customary units, and 5,760 grains in the Troy pound."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.00006479891 ;
@@ -18561,7 +18561,7 @@ unit:GRAIN
 
 unit:GRAIN-PER-GAL_IMP
   a qudt:Unit ;
-  dcterms:description "\"Grain per Imperial Gallon\" is an Imperial unit for  'Density' expressed as $gr/gal$."^^qudt:LatexString ;
+  dcterms:description "\"Grain per Imperial Gallon\" is an Imperial unit for 'Density' expressed as $gr/gal$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:conversionMultiplier 0.01425376752330024262608087389382964 ;
   qudt:conversionMultiplierSN 1.425376752330024262608087389382964E-2 ;
@@ -18593,8 +18593,8 @@ unit:GRAIN-PER-GAL_US
   qudt:ucumCode "[gr].[gal_us]-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "K41" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Grain per Us Gallon" ;
-  rdfs:label "Grain per Us Gallon"@en .
+  rdfs:label "Grain per Gallon (US)" ;
+  rdfs:label "Grain per Gallon (US)"@en .
 
 unit:GRAIN-PER-LB_M
   a qudt:Unit ;
@@ -18731,7 +18731,7 @@ unit:GRAY-PER-MIN
 
 unit:GRAY-PER-SEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Gray per Second\" is a unit for  'Absorbed Dose Rate' expressed as $Gy/s$."^^qudt:LatexString ;
+  dcterms:description "\"Gray per Second\" is a unit for 'Absorbed Dose Rate' expressed as $Gy/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -18792,7 +18792,7 @@ unit:GT
 
 unit:Gamma
   a qudt:Unit ;
-  dcterms:description "\"Gamma\" is a C.G.S System unit for  'Magnetic Field'."^^rdf:HTML ;
+  dcterms:description "\"Gamma\" is a C.G.S System unit for 'Magnetic Field'."^^rdf:HTML ;
   dcterms:isReplacedBy unit:GAMMA ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.000000001 ;
@@ -19146,7 +19146,7 @@ unit:GigaC-PER-M3
 
 unit:GigaEV
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Giga Electron Volt\" is a unit for  'Energy And Work' expressed as $GeV$."^^qudt:LatexString ;
+  dcterms:description "\"Giga Electron Volt\" is a unit for 'Energy And Work' expressed as $GeV$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -20029,7 +20029,7 @@ unit:HP
 
 unit:HP_Boiler
   a qudt:Unit ;
-  dcterms:description "\"Boiler Horsepower\" is a unit for  'Power' expressed as $hp_boiler$."^^qudt:LatexString ;
+  dcterms:description "\"Boiler Horsepower\" is a unit for 'Power' expressed as $hp_boiler$."^^qudt:LatexString ;
   qudt:conversionMultiplier 9809.5 ;
   qudt:conversionMultiplierSN 9.8095E3 ;
   qudt:expression "$boiler_hp$"^^qudt:LatexString ;
@@ -20141,7 +20141,7 @@ unit:HR
 
 unit:HR-FT2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Hour Square Foot\" is an Imperial unit for  'Area Time' expressed as $hr-ft^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Hour Square Foot\" is an Imperial unit for 'Area Time' expressed as $hr-ft^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 334.450944 ;
@@ -20387,7 +20387,7 @@ unit:HZ-PER-K
 
 unit:HZ-PER-T
   a qudt:Unit ;
-  dcterms:description "\"Hertz per Tesla\" is a unit for  'Electric Charge Per Mass' expressed as $Hz T^{-1}$."^^qudt:LatexString ;
+  dcterms:description "\"Hertz per Tesla\" is a unit for 'Electric Charge Per Mass' expressed as $Hz T^{-1}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
@@ -20566,7 +20566,7 @@ unit:HectoBAR
 
 unit:HectoC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"HectoCoulomb\" is a unit for  'Electric Charge' expressed as $hC$."^^qudt:LatexString ;
+  dcterms:description "\"HectoCoulomb\" is a unit for 'Electric Charge' expressed as $hC$."^^qudt:LatexString ;
   prov:wasDerivedFrom unit:C ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -21219,7 +21219,7 @@ unit:IN3-PER-LB
 
 unit:IN3-PER-MIN
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Cubic Inch per Minute\" is an Imperial unit for  'Volume Per Unit Time' expressed as $in^{3}/min$."^^qudt:LatexString ;
+  dcterms:description "\"Cubic Inch per Minute\" is an Imperial unit for 'Volume Per Unit Time' expressed as $in^{3}/min$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0000002731177333333333333333333333333334 ;
@@ -21444,7 +21444,7 @@ unit:IU-PER-MilliGM
   a qudt:Unit ;
   dcterms:description """
 <p>International Unit per milligramme.
-The magnitude of one $IU/L$ depends on the material, so there is no single conversion multiplier.
+The magnitude of one $IU/mg$ depends on the material, so there is no single conversion multiplier.
 </p>"""^^rdf:HTML ;
   qudt:conversionMultiplier 0.0 ;
   qudt:conversionMultiplierSN 0.0E0 ;
@@ -21462,7 +21462,7 @@ The magnitude of one $IU/L$ depends on the material, so there is no single conve
 unit:IU-PER-MilliL
   a qudt:DerivedUnit, qudt:Unit ;
   dcterms:description """
-The $\\textit{International Unit per Milliliter}$ is a unit for  'Serum Or Plasma Level' expressed as $IU/mL$.
+The $\\textit{International Unit per Milliliter}$ is a unit for 'Serum Or Plasma Level' expressed as $IU/mL$.
 The magnitude of one $IU/L$ depends on the material, so there is no single conversion multiplier.
 """^^qudt:LatexString ;
   qudt:conversionMultiplier 0.0 ;
@@ -22176,11 +22176,11 @@ unit:J-PER-M2-SEC0pt5-K
   qudt:hasQuantityKind quantitykind:ThermalInertia ;
   qudt:plainTextDescription "A unit of thermal inertia measured as Joules per meter squared per square root Seconds per degree Kelvin " ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Joules per Meter Squared Sqrt(second) Degree Kelvin" .
+  rdfs:label "Joules per Meter Square Sqrt(second) Degree Kelvin" .
 
 unit:J-PER-M3
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "$\\textit{Joule Per Cubic Meter}$ ($J/m^{3}$) is a unit in the category of Energy density. It is also known as joules per cubic meter, joule per cubic metre, joules per cubic metre, joule/cubic meter, joule/cubic metre. This unit is commonly used in the SI unit system.  It has a dimension of $ML^{-1}T^{-2}$ where $M$ is mass, $L$ is length, and $T$ is time. This unit is the standard SI unit in this category."^^qudt:LatexString ;
+  dcterms:description "$\\textit{Joule Per Cubic Meter}$ ($J/m^{3}$) is a unit in the category of Energy density. It is also known as joules per cubic meter, joule per cubic metre, joules per cubic metre, joule/cubic meter, joule/cubic metre. This unit is commonly used in the SI unit system. It has a dimension of $ML^{-1}T^{-2}$ where $M$ is mass, $L$ is length, and $T$ is time. This unit is the standard SI unit in this category."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -22464,7 +22464,7 @@ unit:J-PER-T2
   qudt:expression "$J T^{-2}$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E2L2I0M-1H0T2D0 ;
   qudt:hasQuantityKind quantitykind:EnergyPerSquareMagneticFluxDensity ;
-  qudt:informativeReference "http://www.eng.famu.fsu.edu/~dommelen/quantum/style_a/elecmagfld.html"^^xsd:anyURI ;
+  qudt:informativeReference "https://web1.eng.famu.fsu.edu/~dommelen/quantum/style_a/elecmagfld.html"^^xsd:anyURI ;
   qudt:symbol "J/T²" ;
   qudt:ucumCode "J.T-2"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
@@ -23262,7 +23262,7 @@ unit:KIP_F
 
 unit:KIP_F-PER-IN2
   a qudt:Unit ;
-  dcterms:description "\"Kip per Square Inch\" is a unit for  'Force Per Area' expressed as $kip/in^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Kip per Square Inch\" is a unit for 'Force Per Area' expressed as $kip/in^{2}$."^^qudt:LatexString ;
   qudt:conversionMultiplier 6894757.293168361336722673445346887 ;
   qudt:conversionMultiplierSN 6.894757293168361336722673445346887E6 ;
   qudt:expression "$kip/in^{2}$"^^qudt:LatexString ;
@@ -23977,7 +23977,7 @@ unit:KiloCAL-PER-CentiM-SEC-DEG_C
 
 unit:KiloCAL-PER-CentiM2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilocalorie per Square Centimeter\" is a unit for  'Energy Per Area' expressed as $kcal/cm^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Kilocalorie per Square Centimeter\" is a unit for 'Energy Per Area' expressed as $kcal/cm^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -23995,7 +23995,7 @@ unit:KiloCAL-PER-CentiM2
 
 unit:KiloCAL-PER-CentiM2-MIN
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilocalorie per Square Centimeter Minute\" is a unit for  'Power Per Area' expressed as $kcal/(cm^{2}-min)$."^^qudt:LatexString ;
+  dcterms:description "\"Kilocalorie per Square Centimeter Minute\" is a unit for 'Power Per Area' expressed as $kcal/(cm^{2}-min)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -24013,7 +24013,7 @@ unit:KiloCAL-PER-CentiM2-MIN
 
 unit:KiloCAL-PER-CentiM2-SEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilocalorie per Square Centimeter Second\" is a unit for  'Power Per Area' expressed as $kcal/(cm^{2}-s)$."^^qudt:LatexString ;
+  dcterms:description "\"Kilocalorie per Square Centimeter Second\" is a unit for 'Power Per Area' expressed as $kcal/(cm^{2}-s)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -24031,7 +24031,7 @@ unit:KiloCAL-PER-CentiM2-SEC
 
 unit:KiloCAL-PER-GM
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilocalorie per Gram\" is a unit for  'Specific Energy' expressed as $kcal/gm$."^^qudt:LatexString ;
+  dcterms:description "\"Kilocalorie per Gram\" is a unit for 'Specific Energy' expressed as $kcal/gm$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -24393,7 +24393,7 @@ unit:KiloCubicFT
 
 unit:KiloEV
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilo Electron Volt\" is a unit for  'Energy And Work' expressed as $keV$."^^qudt:LatexString ;
+  dcterms:description "\"Kilo Electron Volt\" is a unit for 'Energy And Work' expressed as $keV$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -24413,7 +24413,7 @@ unit:KiloEV
 
 unit:KiloEV-PER-MicroM
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilo Electron Volt per Micrometer\" is a unit for  'Linear Energy Transfer' expressed as $keV/microM$."^^qudt:LatexString ;
+  dcterms:description "\"Kilo Electron Volt per Micrometer\" is a unit for 'Linear Energy Transfer' expressed as $keV/microM$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -24645,7 +24645,7 @@ unit:KiloGM-M
 
 unit:KiloGM-M-PER-SEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilogram Meter Per Second\" is a unit for  'Linear Momentum' expressed as $kg-m/s$."^^qudt:LatexString ;
+  dcterms:description "\"Kilogram Meter Per Second\" is a unit for 'Linear Momentum' expressed as $kg-m/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -24717,7 +24717,7 @@ unit:KiloGM-M-PER-SEC2
 
 unit:KiloGM-M2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilogram Square Meter\" is a unit for  'Moment Of Inertia' expressed as $kg-m^2$."^^qudt:LatexString ;
+  dcterms:description "\"Kilogram Square Meter\" is a unit for 'Moment Of Inertia' expressed as $kg-m^2$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -24762,7 +24762,7 @@ unit:KiloGM-M2
 
 unit:KiloGM-M2-PER-SEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilogram Square Meter Per Second\" is a unit for  'Angular Momentum' expressed as $kg-m^2-s^{-1}$."^^qudt:LatexString ;
+  dcterms:description "\"Kilogram Square Meter Per Second\" is a unit for 'Angular Momentum' expressed as $kg-m^2-s^{-1}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -24800,7 +24800,7 @@ unit:KiloGM-M2-PER-SEC
 
 unit:KiloGM-MilliM2
   a qudt:Unit ;
-  dcterms:description "product of the SI base kilogram and the  0.001-fold of the power of the SI base metre with the exponent 2"^^rdf:HTML ;
+  dcterms:description "product of the SI base kilogram and the 0.001-fold of the power of the SI base metre with the exponent 2"^^rdf:HTML ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -24811,7 +24811,7 @@ unit:KiloGM-MilliM2
   qudt:hasQuantityKind quantitykind:MomentOfInertia ;
   qudt:hasQuantityKind quantitykind:RotationalMass ;
   qudt:iec61360Code "0112/2///62720#UAA627" ;
-  qudt:plainTextDescription "product of the SI base kilogram and the  0.001-fold of the power of the SI base metre with the exponent 2" ;
+  qudt:plainTextDescription "product of the SI base kilogram and the 0.001-fold of the power of the SI base metre with the exponent 2" ;
   qudt:symbol "kg·mm²" ;
   qudt:ucumCode "kg.mm2"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "F19" ;
@@ -26460,7 +26460,7 @@ unit:KiloGM2-PER-SEC2
 
 unit:KiloGM_F
   a qudt:Unit ;
-  dcterms:description "\"Kilogram Force\" is a unit for  'Force' expressed as $kgf$."^^qudt:LatexString ;
+  dcterms:description "\"Kilogram Force\" is a unit for 'Force' expressed as $kgf$."^^qudt:LatexString ;
   qudt:conversionMultiplier 9.80665 ;
   qudt:conversionMultiplierSN 9.80665E0 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Kilogram-force"^^xsd:anyURI ;
@@ -26533,7 +26533,7 @@ unit:KiloGM_F-M-PER-SEC
 
 unit:KiloGM_F-PER-CentiM2
   a qudt:Unit ;
-  dcterms:description "\"Kilogram Force per Square Centimeter\" is a unit for  'Force Per Area' expressed as $kgf/cm^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Kilogram Force per Square Centimeter\" is a unit for 'Force Per Area' expressed as $kgf/cm^{2}$."^^qudt:LatexString ;
   qudt:conversionMultiplier 98066.5 ;
   qudt:conversionMultiplierSN 9.80665E4 ;
   qudt:expression "$kgf/cm^{2}$"^^qudt:LatexString ;
@@ -26642,7 +26642,7 @@ unit:KiloH
 
 unit:KiloHZ
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Kilohertz\" is a C.G.S System unit for  'Frequency' expressed as $KHz$."^^qudt:LatexString ;
+  dcterms:description "\"Kilohertz\" is a C.G.S System unit for 'Frequency' expressed as $KHz$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -27209,7 +27209,7 @@ unit:KiloM-PER-DAY
 
 unit:KiloM-PER-HR
   a qudt:Unit ;
-  dcterms:description "\"Kilometer per Hour\" is a C.G.S System unit for  'Linear Velocity' expressed as $km/h$."^^qudt:LatexString ;
+  dcterms:description "\"Kilometer per Hour\" is a C.G.S System unit for 'Linear Velocity' expressed as $km/h$."^^qudt:LatexString ;
   qudt:altSymbol "kph" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -27235,7 +27235,7 @@ unit:KiloM-PER-HR
 
 unit:KiloM-PER-SEC
   a qudt:Unit ;
-  dcterms:description "\"Kilometer per Second\" is a C.G.S System unit for  'Linear Velocity' expressed as $km/s$."^^qudt:LatexString ;
+  dcterms:description "\"Kilometer per Second\" is a C.G.S System unit for 'Linear Velocity' expressed as $km/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -28334,7 +28334,7 @@ unit:KiloS-PER-M
 
 unit:KiloSEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Killosecond\" is an Imperial unit for  'Time' expressed as $ks$."^^qudt:LatexString ;
+  dcterms:description "\"Killosecond\" is an Imperial unit for 'Time' expressed as $ks$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -28592,8 +28592,8 @@ unit:KiloV-A_Reactive
   qudt:uneceCommonCode "KVR" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q107299747> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "KiloVolt Ampere Reactive" ;
-  rdfs:label "KiloVolt Ampere Reactive"@en .
+  rdfs:label "Kilovolt Ampere Reactive" ;
+  rdfs:label "Kilovolt Ampere Reactive"@en .
 
 unit:KiloV-A_Reactive-HR
   a qudt:Unit ;
@@ -28611,8 +28611,8 @@ unit:KiloV-A_Reactive-HR
   qudt:ucumCode "kV.A.h{reactive}"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "K3" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "KiloVolt Ampere Reactive Hour" ;
-  rdfs:label "KiloVolt Ampere Reactive Hour"@en .
+  rdfs:label "Kilovolt Ampere Reactive Hour" ;
+  rdfs:label "Kilovolt Ampere Reactive Hour"@en .
 
 unit:KiloV-A_Reactive-PER-K
   a qudt:Unit ;
@@ -28627,8 +28627,8 @@ unit:KiloV-A_Reactive-PER-K
   qudt:iec61360Code "0112/2///62720#UAD904" ;
   qudt:symbol "kvar/K" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "KiloVolt Ampere Reactive per Kelvin" ;
-  rdfs:label "KiloVolt Ampere Reactive per Kelvin"@en .
+  rdfs:label "Kilovolt Ampere Reactive per Kelvin" ;
+  rdfs:label "Kilovolt Ampere Reactive per Kelvin"@en .
 
 unit:KiloV-PER-M
   a qudt:Unit ;
@@ -29521,7 +29521,7 @@ unit:LANGLEY
 
 unit:LA_FT
   a qudt:Unit ;
-  dcterms:description "\"Foot Lambert\" is a C.G.S System unit for  'Luminance' expressed as $ft-L$."^^qudt:LatexString ;
+  dcterms:description "\"Foot Lambert\" is a C.G.S System unit for 'Luminance' expressed as $ft-L$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 3.426259099594588078065045018978927 ;
   qudt:conversionMultiplierSN 3.426259099594588078065045018978927E0 ;
@@ -29664,8 +29664,8 @@ unit:LB-FT2-PER-GAL_US-LB_F-SEC
   qudt:symbol "lbm·ft²/(gal{US}·lbf·s)" ;
   qudt:ucumCode "[lb_av].[ft_i]2.[gal_us]-1.[lbf_av]-1.s-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Square Foot per Us Gallon Pound Force Second" ;
-  rdfs:label "Pound Mass Square Foot per Us Gallon Pound Force Second"@en .
+  rdfs:label "Pound Mass Square Foot per Gallon (US) Pound Force Second" ;
+  rdfs:label "Pound Mass Square Foot per Gallon (US) Pound Force Second"@en .
 
 unit:LB-FT2-PER-IN3-LB_F-SEC
   a qudt:Unit ;
@@ -29706,8 +29706,8 @@ unit:LB-HR-PER-FT3-GAL_US
   qudt:symbol "lbm·h/(ft³·gal{US})" ;
   qudt:ucumCode "[lb_av].h.[ft_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Hour per Cubic Foot Us Gallon" ;
-  rdfs:label "Pound Mass Hour per Cubic Foot Us Gallon"@en .
+  rdfs:label "Pound Mass Hour per Cubic Foot Gallon (US)" ;
+  rdfs:label "Pound Mass Hour per Cubic Foot Gallon (US)"@en .
 
 unit:LB-HR-PER-FT3-IN3
   a qudt:Unit ;
@@ -29818,8 +29818,8 @@ unit:LB-HR-PER-GAL_US-FT3
   qudt:symbol "lbm·h/(gal{US}·ft³)" ;
   qudt:ucumCode "[lb_av].h.[gal_us]-1.[ft_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Hour per Us Gallon Cubic Foot" ;
-  rdfs:label "Pound Mass Hour per Us Gallon Cubic Foot"@en .
+  rdfs:label "Pound Mass Hour per Gallon (US) Cubic Foot" ;
+  rdfs:label "Pound Mass Hour per Gallon (US) Cubic Foot"@en .
 
 unit:LB-HR-PER-GAL_US-IN3
   a qudt:Unit ;
@@ -29832,8 +29832,8 @@ unit:LB-HR-PER-GAL_US-IN3
   qudt:symbol "lbm·h/(gal{US}·in³)" ;
   qudt:ucumCode "[lb_av].h.[gal_us]-1.[in_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Hour per Us Gallon Cubic Inch" ;
-  rdfs:label "Pound Mass Hour per Us Gallon Cubic Inch"@en .
+  rdfs:label "Pound Mass Hour per Gallon (US) Cubic Inch" ;
+  rdfs:label "Pound Mass Hour per Gallon (US) Cubic Inch"@en .
 
 unit:LB-HR-PER-GAL_US-YD3
   a qudt:Unit ;
@@ -29846,8 +29846,8 @@ unit:LB-HR-PER-GAL_US-YD3
   qudt:symbol "lbm·h/(gal{US}·yd³)" ;
   qudt:ucumCode "[lb_av].h.[gal_us]-1.[yd_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Hour per Us Gallon Cubic Yard" ;
-  rdfs:label "Pound Mass Hour per Us Gallon Cubic Yard"@en .
+  rdfs:label "Pound Mass Hour per Gallon (US) Cubic Yard" ;
+  rdfs:label "Pound Mass Hour per Gallon (US) Cubic Yard"@en .
 
 unit:LB-HR-PER-GAL_US2
   a qudt:Unit ;
@@ -29860,8 +29860,8 @@ unit:LB-HR-PER-GAL_US2
   qudt:symbol "lbm·h/gal{US}²" ;
   qudt:ucumCode "[lb_av].h.[gal_us]-2"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Hour per Square Us Gallon" ;
-  rdfs:label "Pound Mass Hour per Square Us Gallon"@en .
+  rdfs:label "Pound Mass Hour per Square Gallon (US)" ;
+  rdfs:label "Pound Mass Hour per Square Gallon (US)"@en .
 
 unit:LB-HR-PER-IN3-FT3
   a qudt:Unit ;
@@ -29902,8 +29902,8 @@ unit:LB-HR-PER-IN3-GAL_US
   qudt:symbol "lbm·h/(in³·gal{US})" ;
   qudt:ucumCode "[lb_av].h.[in_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Hour per Cubic Inch Us Gallon" ;
-  rdfs:label "Pound Mass Hour per Cubic Inch Us Gallon"@en .
+  rdfs:label "Pound Mass Hour per Cubic Inch Gallon (US)" ;
+  rdfs:label "Pound Mass Hour per Cubic Inch Gallon (US)"@en .
 
 unit:LB-HR-PER-IN3-YD3
   a qudt:Unit ;
@@ -30024,8 +30024,8 @@ unit:LB-IN2-PER-GAL_US-LB_F-SEC
   qudt:symbol "lbm·in²/(gal{US}·lbf·s)" ;
   qudt:ucumCode "[lb_av].[in_i]2.[gal_us]-1.[lbf_av]-1.s-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Square Inch per Us Gallon Pound Force Second" ;
-  rdfs:label "Pound Mass Square Inch per Us Gallon Pound Force Second"@en .
+  rdfs:label "Pound Mass Square Inch per Gallon (US) Pound Force Second" ;
+  rdfs:label "Pound Mass Square Inch per Gallon (US) Pound Force Second"@en .
 
 unit:LB-IN2-PER-IN3-LB_F-SEC
   a qudt:Unit ;
@@ -30066,8 +30066,8 @@ unit:LB-MIN-PER-FT3-GAL_US
   qudt:symbol "lbm·min/(ft³·gal{US})" ;
   qudt:ucumCode "[lb_av].min.[ft_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Minute per Cubic Foot Us Gallon" ;
-  rdfs:label "Pound Mass Minute per Cubic Foot Us Gallon"@en .
+  rdfs:label "Pound Mass Minute per Cubic Foot Gallon (US)" ;
+  rdfs:label "Pound Mass Minute per Cubic Foot Gallon (US)"@en .
 
 unit:LB-MIN-PER-FT3-IN3
   a qudt:Unit ;
@@ -30178,8 +30178,8 @@ unit:LB-MIN-PER-GAL_US-FT3
   qudt:symbol "lbm·min/(gal{US}·ft³)" ;
   qudt:ucumCode "[lb_av].min.[gal_us]-1.[ft_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Minute per Us Gallon Cubic Foot" ;
-  rdfs:label "Pound Mass Minute per Us Gallon Cubic Foot"@en .
+  rdfs:label "Pound Mass Minute per Gallon (US) Cubic Foot" ;
+  rdfs:label "Pound Mass Minute per Gallon (US) Cubic Foot"@en .
 
 unit:LB-MIN-PER-GAL_US-IN3
   a qudt:Unit ;
@@ -30192,8 +30192,8 @@ unit:LB-MIN-PER-GAL_US-IN3
   qudt:symbol "lbm·min/(gal{US}·in³)" ;
   qudt:ucumCode "[lb_av].min.[gal_us]-1.[in_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Minute per Us Gallon Cubic Inch" ;
-  rdfs:label "Pound Mass Minute per Us Gallon Cubic Inch"@en .
+  rdfs:label "Pound Mass Minute per Gallon (US) Cubic Inch" ;
+  rdfs:label "Pound Mass Minute per Gallon (US) Cubic Inch"@en .
 
 unit:LB-MIN-PER-GAL_US-YD3
   a qudt:Unit ;
@@ -30206,8 +30206,8 @@ unit:LB-MIN-PER-GAL_US-YD3
   qudt:symbol "lbm·min/(gal{US}·yd³)" ;
   qudt:ucumCode "[lb_av].min.[gal_us]-1.[yd_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Minute per Us Gallon Cubic Yard" ;
-  rdfs:label "Pound Mass Minute per Us Gallon Cubic Yard"@en .
+  rdfs:label "Pound Mass Minute per Gallon (US) Cubic Yard" ;
+  rdfs:label "Pound Mass Minute per Gallon (US) Cubic Yard"@en .
 
 unit:LB-MIN-PER-GAL_US2
   a qudt:Unit ;
@@ -30220,8 +30220,8 @@ unit:LB-MIN-PER-GAL_US2
   qudt:symbol "lbm·min/gal{US}²" ;
   qudt:ucumCode "[lb_av].min.[gal_us]-2"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Minute per Square Us Gallon" ;
-  rdfs:label "Pound Mass Minute per Square Us Gallon"@en .
+  rdfs:label "Pound Mass Minute per Square Gallon (US)" ;
+  rdfs:label "Pound Mass Minute per Square Gallon (US)"@en .
 
 unit:LB-MIN-PER-IN3-FT3
   a qudt:Unit ;
@@ -30262,8 +30262,8 @@ unit:LB-MIN-PER-IN3-GAL_US
   qudt:symbol "lbm·min/(in³·gal{US})" ;
   qudt:ucumCode "[lb_av].min.[in_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Minute per Cubic Inch Us Gallon" ;
-  rdfs:label "Pound Mass Minute per Cubic Inch Us Gallon"@en .
+  rdfs:label "Pound Mass Minute per Cubic Inch Gallon (US)" ;
+  rdfs:label "Pound Mass Minute per Cubic Inch Gallon (US)"@en .
 
 unit:LB-MIN-PER-IN3-YD3
   a qudt:Unit ;
@@ -30345,7 +30345,7 @@ unit:LB-PER-DEG_F
 
 unit:LB-PER-FT
   a qudt:Unit ;
-  dcterms:description "\"Pound per Foot\" is an Imperial unit for  'Mass Per Length' expressed as $lb/ft$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Foot\" is an Imperial unit for 'Mass Per Length' expressed as $lb/ft$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1.488163943569553805774278215223097 ;
@@ -30381,7 +30381,7 @@ unit:LB-PER-FT-DAY
 
 unit:LB-PER-FT-HR
   a qudt:Unit ;
-  dcterms:description "\"Pound per Foot Hour\" is an Imperial unit for  'Dynamic Viscosity' expressed as $lb/(ft-h)$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Foot Hour\" is an Imperial unit for 'Dynamic Viscosity' expressed as $lb/(ft-h)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0004133788732137649460484106153397492 ;
@@ -30432,7 +30432,7 @@ unit:LB-PER-FT-MIN
 
 unit:LB-PER-FT-SEC
   a qudt:Unit ;
-  dcterms:description "\"Pound per Foot Second\" is an Imperial unit for  'Dynamic Viscosity' expressed as $lb/(ft-s)$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Foot Second\" is an Imperial unit for 'Dynamic Viscosity' expressed as $lb/(ft-s)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1.488163943569553805774278215223097 ;
@@ -30472,7 +30472,7 @@ unit:LB-PER-FT2
 
 unit:LB-PER-FT3
   a qudt:Unit ;
-  dcterms:description "\"Pound per Cubic Foot\" is an Imperial unit for  'Density' expressed as $lb/ft^{3}$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Cubic Foot\" is an Imperial unit for 'Density' expressed as $lb/ft^{3}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 16.01846337396013957965507065455659 ;
@@ -30525,7 +30525,7 @@ unit:LB-PER-FT3-PSI
 
 unit:LB-PER-GAL
   a qudt:Unit ;
-  dcterms:description "\"Pound per Gallon\" is an Imperial unit for  'Density' expressed as $lb/gal$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Gallon\" is an Imperial unit for 'Density' expressed as $lb/gal$."^^qudt:LatexString ;
   dcterms:isReplacedBy unit:LB-PER-GAL_IMP ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -30544,12 +30544,12 @@ unit:LB-PER-GAL
   qudt:symbol "lb/gal" ;
   qudt:ucumCode "[lb_av].[gal_br]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound per Gallon" ;
-  rdfs:label "Pound per Gallon"@en .
+  rdfs:label "Pound Mass per Gallon" ;
+  rdfs:label "Pound Mass per Gallon"@en .
 
 unit:LB-PER-GAL_IMP
   a qudt:Unit ;
-  dcterms:description "\"Pound per Imperial Gallon\" is an Imperial unit for  'Density' expressed as $lb/gal$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Imperial Gallon\" is an Imperial unit for 'Density' expressed as $lb/gal$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 99.77637266310169838256611725680751 ;
@@ -30601,12 +30601,12 @@ unit:LB-PER-GAL_US
   qudt:ucumCode "[lb_av].[gal_us]-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "GE" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass per Us Gallon" ;
-  rdfs:label "Pound Mass per Us Gallon"@en .
+  rdfs:label "Pound Mass per Gallon (US)" ;
+  rdfs:label "Pound Mass per Gallon (US)"@en .
 
 unit:LB-PER-HR
   a qudt:Unit ;
-  dcterms:description "Pound per hour is a mass flow unit. It is abbreviated as PPH or more conventionally as lb/h. Fuel flow for engines is usually expressed using this unit, it is particularly useful when dealing with gases or liquids as volume flow varies more with temperature and pressure. $1 lb/h = 0.4535927 kg/h = 126.00 mg/s$.  Minimum fuel intake on a jumbojet can be as low as 150 lb/h when idling, however this is not enough to sustain flight."^^qudt:LatexString ;
+  dcterms:description "Pound per hour is a mass flow unit. It is abbreviated as PPH or more conventionally as lb/h. Fuel flow for engines is usually expressed using this unit, it is particularly useful when dealing with gases or liquids as volume flow varies more with temperature and pressure. $1 lb/h = 0.4535927 kg/h = 126.00 mg/s$. Minimum fuel intake on a jumbojet can be as low as 150 lb/h when idling, however this is not enough to sustain flight."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -30661,7 +30661,7 @@ unit:LB-PER-HR-PSI
 
 unit:LB-PER-IN
   a qudt:Unit ;
-  dcterms:description "\"Pound per Inch\" is an Imperial unit for  'Mass Per Length' expressed as $lb/in$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Inch\" is an Imperial unit for 'Mass Per Length' expressed as $lb/in$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 17.85796732283464566929133858267716 ;
@@ -30701,7 +30701,7 @@ unit:LB-PER-IN2
 
 unit:LB-PER-IN3
   a qudt:Unit ;
-  dcterms:description "\"Pound per Cubic Inch\" is an Imperial unit for  'Density' expressed as $lb/in^{3}$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Cubic Inch\" is an Imperial unit for 'Density' expressed as $lb/in^{3}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 27679.90471020312119364396209107379 ;
@@ -30769,7 +30769,7 @@ unit:LB-PER-LB
 
 unit:LB-PER-M3
   a qudt:Unit ;
-  dcterms:description "\"Pound per Cubic Meter\" is a unit for  'Density' expressed as $lb/m^{3}$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Cubic Meter\" is a unit for 'Density' expressed as $lb/m^{3}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.45359237 ;
   qudt:conversionMultiplierSN 4.5359237E-1 ;
@@ -30786,7 +30786,7 @@ unit:LB-PER-M3
 
 unit:LB-PER-MIN
   a qudt:Unit ;
-  dcterms:description "\"Pound per Minute\" is an Imperial unit for  'Mass Per Time' expressed as $lb/min$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Minute\" is an Imperial unit for 'Mass Per Time' expressed as $lb/min$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
@@ -30935,7 +30935,7 @@ unit:LB-PER-YD2
 
 unit:LB-PER-YD3
   a qudt:Unit ;
-  dcterms:description "\"Pound per Cubic Yard\" is an Imperial unit for  'Density' expressed as $lb/yd^{3}$."^^qudt:LatexString ;
+  dcterms:description "\"Pound per Cubic Yard\" is an Imperial unit for 'Density' expressed as $lb/yd^{3}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.5932764212577829473946322464650587 ;
@@ -30980,8 +30980,8 @@ unit:LB-SEC-PER-FT3-GAL_US
   qudt:symbol "lbm·s/(ft³·gal{US})" ;
   qudt:ucumCode "[lb_av].s.[ft_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Second per Cubic Foot Us Gallon" ;
-  rdfs:label "Pound Mass Second per Cubic Foot Us Gallon"@en .
+  rdfs:label "Pound Mass Second per Cubic Foot Gallon (US)" ;
+  rdfs:label "Pound Mass Second per Cubic Foot Gallon (US)"@en .
 
 unit:LB-SEC-PER-FT3-IN3
   a qudt:Unit ;
@@ -31092,8 +31092,8 @@ unit:LB-SEC-PER-GAL_US-FT3
   qudt:symbol "lbm·s/(gal{US}·ft³)" ;
   qudt:ucumCode "[lb_av].s.[gal_us]-1.[ft_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Second per Us Gallon Cubic Foot" ;
-  rdfs:label "Pound Mass Second per Us Gallon Cubic Foot"@en .
+  rdfs:label "Pound Mass Second per Gallon (US) Cubic Foot" ;
+  rdfs:label "Pound Mass Second per Gallon (US) Cubic Foot"@en .
 
 unit:LB-SEC-PER-GAL_US-IN3
   a qudt:Unit ;
@@ -31106,8 +31106,8 @@ unit:LB-SEC-PER-GAL_US-IN3
   qudt:symbol "lbm·s/(gal{US}·in³)" ;
   qudt:ucumCode "[lb_av].s.[gal_us]-1.[in_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Second per Us Gallon Cubic Inch" ;
-  rdfs:label "Pound Mass Second per Us Gallon Cubic Inch"@en .
+  rdfs:label "Pound Mass Second per Gallon (US) Cubic Inch" ;
+  rdfs:label "Pound Mass Second per Gallon (US) Cubic Inch"@en .
 
 unit:LB-SEC-PER-GAL_US-YD3
   a qudt:Unit ;
@@ -31120,8 +31120,8 @@ unit:LB-SEC-PER-GAL_US-YD3
   qudt:symbol "lbm·s/(gal{US}·yd³)" ;
   qudt:ucumCode "[lb_av].s.[gal_us]-1.[yd_i]-3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Second per Us Gallon Cubic Yard" ;
-  rdfs:label "Pound Mass Second per Us Gallon Cubic Yard"@en .
+  rdfs:label "Pound Mass Second per Gallon (US) Cubic Yard" ;
+  rdfs:label "Pound Mass Second per Gallon (US) Cubic Yard"@en .
 
 unit:LB-SEC-PER-GAL_US2
   a qudt:Unit ;
@@ -31134,8 +31134,8 @@ unit:LB-SEC-PER-GAL_US2
   qudt:symbol "lbm·s/gal{US}²" ;
   qudt:ucumCode "[lb_av].s.[gal_us]-2"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Second per Square Us Gallon" ;
-  rdfs:label "Pound Mass Second per Square Us Gallon"@en .
+  rdfs:label "Pound Mass Second per Square Gallon (US)" ;
+  rdfs:label "Pound Mass Second per Square Gallon (US)"@en .
 
 unit:LB-SEC-PER-IN3-FT3
   a qudt:Unit ;
@@ -31176,8 +31176,8 @@ unit:LB-SEC-PER-IN3-GAL_US
   qudt:symbol "lbm·s/(in³·gal{US})" ;
   qudt:ucumCode "[lb_av].s.[in_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Pound Mass Second per Cubic Inch Us Gallon" ;
-  rdfs:label "Pound Mass Second per Cubic Inch Us Gallon"@en .
+  rdfs:label "Pound Mass Second per Cubic Inch Gallon (US)" ;
+  rdfs:label "Pound Mass Second per Cubic Inch Gallon (US)"@en .
 
 unit:LB-SEC-PER-IN3-YD3
   a qudt:Unit ;
@@ -31209,7 +31209,7 @@ unit:LB-SEC-PER-IN6
 
 unit:LB_F
   a qudt:Unit ;
-  dcterms:description "\"Pound Force\" is an Imperial unit for  'Force' expressed as $lbf$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force\" is an Imperial unit for 'Force' expressed as $lbf$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 4.448221615260499999999999999999998 ;
@@ -31244,7 +31244,7 @@ unit:LB_F
 
 unit:LB_F-FT
   a qudt:Unit ;
-  dcterms:description "\"Pound Force Foot\" is an Imperial unit for  'Torque' expressed as $lbf-ft$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force Foot\" is an Imperial unit for 'Torque' expressed as $lbf-ft$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1.355817948331400399999999999999999 ;
@@ -31281,7 +31281,7 @@ unit:LB_F-FT-PER-IN
 
 unit:LB_F-IN
   a qudt:Unit ;
-  dcterms:description "\"Pound Force Inch\" is an Imperial unit for  'Torque' expressed as $lbf-in$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force Inch\" is an Imperial unit for 'Torque' expressed as $lbf-in$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.1129848290276166999999999999999999 ;
@@ -31317,7 +31317,7 @@ unit:LB_F-IN-PER-IN
 
 unit:LB_F-PER-FT
   a qudt:Unit ;
-  dcterms:description "\"Pound Force per Foot\" is an Imperial unit for  'Force Per Length' expressed as $lbf/ft$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force per Foot\" is an Imperial unit for 'Force Per Length' expressed as $lbf/ft$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 14.59390293720636482939632545931758 ;
@@ -31356,7 +31356,7 @@ unit:LB_F-PER-FT2
 
 unit:LB_F-PER-IN
   a qudt:Unit ;
-  dcterms:description "\"Pound Force per Inch\" is an Imperial unit for  'Force Per Length' expressed as $lbf/in$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force per Inch\" is an Imperial unit for 'Force Per Length' expressed as $lbf/in$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 175.1268352464763779527559055118109 ;
@@ -31377,7 +31377,7 @@ unit:LB_F-PER-IN
 
 unit:LB_F-PER-IN2
   a qudt:Unit ;
-  dcterms:description "\"Pound Force per Square Inch\" is an Imperial unit for  'Force Per Area' expressed as $psia$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force per Square Inch\" is an Imperial unit for 'Force Per Area' expressed as $psia$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 6894.757293168361336722673445346887 ;
@@ -31421,7 +31421,7 @@ unit:LB_F-PER-IN2-DEG_F
 
 unit:LB_F-PER-IN2-SEC
   a qudt:Unit ;
-  dcterms:description "\"Pound Force per Square Inch Second\" is a unit for  'Force Per Area Time' expressed as $lbf / in^{2}-s$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force per Square Inch Second\" is a unit for 'Force Per Area Time' expressed as $lbf / in^{2}-s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 6894.757293168361336722673445346887 ;
@@ -31437,7 +31437,7 @@ unit:LB_F-PER-IN2-SEC
 
 unit:LB_F-PER-LB
   a qudt:Unit ;
-  dcterms:description "\"Pound Force per Pound\" is an Imperial unit for  'Thrust To Mass Ratio' expressed as $lbf/lb$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force per Pound\" is an Imperial unit for 'Thrust To Mass Ratio' expressed as $lbf/lb$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 9.806649999999999999999999999999994 ;
@@ -31470,7 +31470,7 @@ unit:LB_F-PER-YD
 
 unit:LB_F-SEC-PER-FT2
   a qudt:Unit ;
-  dcterms:description "\"Pound Force Second per Square Foot\" is an Imperial unit for  'Dynamic Viscosity' expressed as $lbf-s/ft^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force Second per Square Foot\" is an Imperial unit for 'Dynamic Viscosity' expressed as $lbf-s/ft^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 47.88025898033584261612967670379783 ;
@@ -31491,7 +31491,7 @@ unit:LB_F-SEC-PER-FT2
 
 unit:LB_F-SEC-PER-IN2
   a qudt:Unit ;
-  dcterms:description "\"Pound Force Second per Square Inch\" is an Imperial unit for  'Dynamic Viscosity' expressed as $lbf-s/in^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Pound Force Second per Square Inch\" is an Imperial unit for 'Dynamic Viscosity' expressed as $lbf-s/in^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 6894.757293168361336722673445346887 ;
@@ -31705,7 +31705,7 @@ unit:LM-PER-W
 
 unit:LM-SEC
   a qudt:Unit ;
-  dcterms:description "In photometry, the lumen second is the SI derived unit of luminous energy. It is based on the lumen, the SI unit of luminous flux, and the second, the SI base unit of time.  The lumen second is sometimes called the talbot (symbol T).  An older name for the lumen second was the lumberg."^^rdf:HTML ;
+  dcterms:description "In photometry, the lumen second is the SI derived unit of luminous energy. It is based on the lumen, the SI unit of luminous flux, and the second, the SI base unit of time. The lumen second is sometimes called the talbot (symbol T). An older name for the lumen second was the lumberg."^^rdf:HTML ;
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 1.0 ;
   qudt:conversionMultiplierSN 1.0E0 ;
@@ -31879,7 +31879,7 @@ unit:LunarMass
 
 unit:M
   a qudt:Unit ;
-  dcterms:description "The metric and SI base unit of distance.  The 17th General Conference on Weights and Measures in 1983 defined the meter as that distance that makes the speed of light in a vacuum equal to exactly 299 792 458 meters per second. The speed of light in a vacuum, $c$, is one of the fundamental constants of nature. The meter is equal to approximately 1.093 613 3 yards, 3.280 840 feet, or 39.370 079 inches."^^qudt:LatexString ;
+  dcterms:description "The metric and SI base unit of distance. The 17th General Conference on Weights and Measures in 1983 defined the meter as that distance that makes the speed of light in a vacuum equal to exactly 299 792 458 meters per second. The speed of light in a vacuum, $c$, is one of the fundamental constants of nature. The meter is equal to approximately 1.093 613 3 yards, 3.280 840 feet, or 39.370 079 inches."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -31894,7 +31894,7 @@ unit:M
   qudt:iec61360Code "0112/2///62720#UAA726" ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Metre?oldid=495145797"^^xsd:anyURI ;
   qudt:omUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/metre> ;
-  qudt:plainTextDescription "The metric and SI base unit of distance.   The meter is equal to approximately 1.093 613 3 yards, 3.280 840 feet, or 39.370 079 inches." ;
+  qudt:plainTextDescription "The metric and SI base unit of distance. The meter is equal to approximately 1.093 613 3 yards, 3.280 840 feet, or 39.370 079 inches." ;
   qudt:siExactMatch si-unit:metre ;
   qudt:symbol "m" ;
   qudt:ucumCode "m"^^qudt:UCUMcs ;
@@ -33759,7 +33759,7 @@ unit:M2-SEC-PER-RAD
 
 unit:M2-SR
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Square Meter Steradian\" is a unit for  'Area Angle' expressed as $m^{2}-sr$."^^qudt:LatexString ;
+  dcterms:description "\"Square Meter Steradian\" is a unit for 'Area Angle' expressed as $m^{2}-sr$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -34530,7 +34530,7 @@ unit:M3-PER-SEC-PA
 
 unit:M3-PER-SEC2
   a qudt:Unit ;
-  dcterms:description "$\\textit{Cubic Meter per Square Second}$ is a C.G.S System unit for  $\\textit{Standard Gravitational Parameter}$ expressed as $m^3/s^2$"^^qudt:LatexString ;
+  dcterms:description "$\\textit{Cubic Meter per Square Second}$ is a C.G.S System unit for $\\textit{Standard Gravitational Parameter}$ expressed as $m^3/s^2$"^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -34706,7 +34706,7 @@ unit:MESH
 
 unit:MHO
   a qudt:Unit ;
-  dcterms:description "\"Mho\" is a C.G.S System unit for  'Electric Conductivity' expressed as $mho$."^^qudt:LatexString ;
+  dcterms:description "\"Mho\" is a C.G.S System unit for 'Electric Conductivity' expressed as $mho$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 1.0 ;
   qudt:conversionMultiplierSN 1.0E0 ;
@@ -34908,8 +34908,8 @@ unit:MIL
   qudt:scalingOf unit:RAD ;
   qudt:symbol "mil{NATO}" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Mil Angle (nato)" ;
-  rdfs:label "Mil Angle (nato)"@en .
+  rdfs:label "Mil Angle (NATO)" ;
+  rdfs:label "Mil Angle (NATO)"@en .
 
 unit:MILLION
   a qudt:CountingUnit, qudt:Unit ;
@@ -35127,7 +35127,7 @@ unit:MIN_Sidereal
 
 unit:MI_N
   a qudt:Unit ;
-  dcterms:description "A unit of distance used primarily at sea and in aviation. The nautical mile is defined to be the average distance on the Earth's surface represented by one minute of latitude.  In 1929 an international conference in Monaco redefined the nautical mile to be exactly 1852 meters or 6076.115 49 feet, a distance known as the international nautical mile. The international nautical mile equals about 1.1508 statute miles. There are usually 3 nautical miles in a league. The unit is designed to equal 1/60 degree, although actual degrees of latitude vary from about 59.7 to 60.3 nautical miles. (Note: using data from the Geodetic Reference System 1980, the \"true\" length of a nautical mile would be 1852.216 meters.)"^^rdf:HTML ;
+  dcterms:description "A unit of distance used primarily at sea and in aviation. The nautical mile is defined to be the average distance on the Earth's surface represented by one minute of latitude. In 1929 an international conference in Monaco redefined the nautical mile to be exactly 1852 meters or 6076.115 49 feet, a distance known as the international nautical mile. The international nautical mile equals about 1.1508 statute miles. There are usually 3 nautical miles in a league. The unit is designed to equal 1/60 degree, although actual degrees of latitude vary from about 59.7 to 60.3 nautical miles. (Note: using data from the Geodetic Reference System 1980, the \"true\" length of a nautical mile would be 1852.216 meters.)"^^rdf:HTML ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1852.0 ;
   qudt:conversionMultiplierSN 1.852E3 ;
@@ -35236,8 +35236,8 @@ unit:MI_US
   qudt:uneceCommonCode "M52" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q61749562> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Survey Mile" ;
-  rdfs:label "Us Survey Mile"@en .
+  rdfs:label "US Survey Mile" ;
+  rdfs:label "US Survey Mile"@en .
 
 unit:MI_US-PER-SEC2
   a qudt:Unit ;
@@ -35252,8 +35252,8 @@ unit:MI_US-PER-SEC2
   qudt:ucumCode "[mi_us].s-2"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "M42" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Survey Mile per Square Second" ;
-  rdfs:label "Us Survey Mile per Square Second"@en .
+  rdfs:label "US Survey Mile per Square Second" ;
+  rdfs:label "US Survey Mile per Square Second"@en .
 
 unit:MI_US2
   a qudt:Unit ;
@@ -35271,8 +35271,8 @@ unit:MI_US2
   qudt:ucumCode "[mi_us]2"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "208" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Square Us Survey Mile" ;
-  rdfs:label "Square Us Survey Mile"@en .
+  rdfs:label "Square US Survey Mile" ;
+  rdfs:label "Square US Survey Mile"@en .
 
 unit:MO
   a qudt:Unit ;
@@ -35330,7 +35330,7 @@ unit:MOHM
   qudt:hasQuantityKind quantitykind:MechanicalMobility ;
   qudt:informativeReference "http://www.oxfordreference.com/view/10.1093/acref/9780198605225.001.0001/acref-9780198605225-e-914"^^xsd:anyURI ;
   qudt:latexDefinition "$1\\:{mohm_{cgs}} = 1\\:\\frac {cm} {dyn.s}\\: (=\\:1\\:\\frac s g \\:in\\:base\\:c.g.s.\\:terms)$"^^qudt:LatexString ;
-  qudt:latexDefinition "$1\\:{mohm_{mks}} = 10^{3}\\:\\frac m {N.s}\\:(=\\:10^{3}\\:   \\frac s {kg}\\:in\\:base\\:m.k.s.\\:terms)$"^^qudt:LatexString ;
+  qudt:latexDefinition "$1\\:{mohm_{mks}} = 10^{3}\\:\\frac m {N.s}\\:(=\\:10^{3}\\: \\frac s {kg}\\:in\\:base\\:m.k.s.\\:terms)$"^^qudt:LatexString ;
   qudt:scalingOf unit:SEC-PER-KiloGM ;
   qudt:symbol "mohm" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
@@ -36249,7 +36249,7 @@ unit:MO_Synodic
 
 unit:MX
   a qudt:Unit ;
-  dcterms:description "\"Maxwell\" is a C.G.S System unit for  'Magnetic Flux' expressed as $Mx$."^^qudt:LatexString ;
+  dcterms:description "\"Maxwell\" is a C.G.S System unit for 'Magnetic Flux' expressed as $Mx$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.00000001 ;
   qudt:conversionMultiplierSN 1.0E-8 ;
@@ -36278,7 +36278,7 @@ unit:M_H2O
   qudt:hasQuantityKind quantitykind:VapourPressure ;
   qudt:iec61360Code "0112/2///62720#UAB362" ;
   qudt:scalingOf unit:PA ;
-  qudt:symbol "mH₂0" ;
+  qudt:symbol "mH₂O" ;
   qudt:uneceCommonCode "N23" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Conventional Metre of Water" ;
@@ -36736,8 +36736,8 @@ unit:MegaCCY_USD
   qudt:hasQuantityKind quantitykind:Currency ;
   qudt:symbol "M$" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Mega Us Dollar" ;
-  rdfs:label "Mega Us Dollar"@en .
+  rdfs:label "Mega US Dollar" ;
+  rdfs:label "Mega US Dollar"@en .
 
 unit:MegaCCY_USD-PER-FLIGHT
   a qudt:ContextualUnit, qudt:DerivedUnit, qudt:Unit ;
@@ -36756,8 +36756,8 @@ unit:MegaCCY_USD-PER-FLIGHT
   qudt:hasQuantityKind quantitykind:CurrencyPerFlight ;
   qudt:symbol "M$/flight" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Mega Us Dollar per Flight" ;
-  rdfs:label "Mega Us Dollar per Flight"@en .
+  rdfs:label "Mega US Dollar per Flight" ;
+  rdfs:label "Mega US Dollar per Flight"@en .
 
 unit:MegaCCY_USD-PER-YR
   a qudt:DerivedUnit, qudt:Unit ;
@@ -36768,8 +36768,8 @@ unit:MegaCCY_USD-PER-YR
   qudt:hasQuantityKind quantitykind:Unknown ;
   qudt:symbol "M$/a" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Mega Us Dollar per Year" ;
-  rdfs:label "Mega Us Dollar per Year"@en .
+  rdfs:label "Mega US Dollar per Year" ;
+  rdfs:label "Mega US Dollar per Year"@en .
 
 unit:MegaDOLLAR_US-PER-FLIGHT
   a qudt:ContextualUnit, qudt:DerivedUnit, qudt:Unit ;
@@ -36791,12 +36791,12 @@ unit:MegaDOLLAR_US-PER-FLIGHT
   qudt:hasQuantityKind quantitykind:CurrencyPerFlight ;
   qudt:symbol "$M/flight" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Million Us Dollars per Flight" ;
-  rdfs:label "Million Us Dollars per Flight"@en .
+  rdfs:label "Million US Dollars per Flight" ;
+  rdfs:label "Million US Dollars per Flight"@en .
 
 unit:MegaEV
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "$\\textit{Mega Electron Volt}$ is a unit for  'Energy And Work' expressed as $MeV$."^^qudt:LatexString ;
+  dcterms:description "$\\textit{Megaelectronvolt}$ is a unit for 'Energy And Work' expressed as $MeV$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -36811,12 +36811,12 @@ unit:MegaEV
   qudt:uneceCommonCode "B71" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q72081071> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Mega Electron Volt" ;
-  rdfs:label "Mega Electron Volt"@en .
+  rdfs:label "Megaelectronvolt" ;
+  rdfs:label "Megaelectronvolt"@en .
 
 unit:MegaEV-FemtoM
   a qudt:Unit ;
-  dcterms:description "$\\textit{Mega Electron Volt Femtometer}$ is a unit for  'Length Energy' expressed as $MeV fm$."^^qudt:LatexString ;
+  dcterms:description "$\\textit{Megaelectronvolt Femtometer}$ is a unit for 'Length Energy' expressed as $MeV fm$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -36828,13 +36828,13 @@ unit:MegaEV-FemtoM
   qudt:symbol "MeV·fm" ;
   qudt:ucumCode "MeV.fm"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Mega Electron Volt Femtometer"@en-US ;
-  rdfs:label "Mega Electron Volt Femtometre" ;
-  rdfs:label "Mega Electron Volt Femtometre"@en .
+  rdfs:label "Megaelectronvolt Femtometer"@en-US ;
+  rdfs:label "Megaelectronvolt Femtometre" ;
+  rdfs:label "Megaelectronvolt Femtometre"@en .
 
 unit:MegaEV-PER-CentiM
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Mega Electron Volt per Centimeter\" is a unit for  'Linear Energy Transfer' expressed as $MeV/cm$."^^qudt:LatexString ;
+  dcterms:description "\"Megaelectronvolt per Centimeter\" is a unit for 'Linear Energy Transfer' expressed as $MeV/cm$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -36847,13 +36847,13 @@ unit:MegaEV-PER-CentiM
   qudt:symbol "MeV/cm" ;
   qudt:ucumCode "MeV.cm-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Mega Electron Volt per Centimeter"@en-US ;
-  rdfs:label "Mega Electron Volt per Centimetre" ;
-  rdfs:label "Mega Electron Volt per Centimetre"@en .
+  rdfs:label "Megaelectronvolt per Centimeter"@en-US ;
+  rdfs:label "Megaelectronvolt per Centimetre" ;
+  rdfs:label "Megaelectronvolt per Centimetre"@en .
 
 unit:MegaEV-PER-SpeedOfLight
   a qudt:ContextualUnit, qudt:Unit ;
-  dcterms:description "\"Mega Electron Volt per Speed of Light\" is a unit for  'Linear Momentum' expressed as $MeV/c$."^^qudt:LatexString ;
+  dcterms:description "\"Megaelectronvolt per Speed of Light\" is a unit for 'Linear Momentum' expressed as $MeV/c$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.0 ;
   qudt:conversionMultiplierSN 0.0E0 ;
   qudt:expression "$MeV/c$"^^qudt:LatexString ;
@@ -36863,9 +36863,9 @@ unit:MegaEV-PER-SpeedOfLight
   qudt:symbol "MeV/c" ;
   qudt:ucumCode "MeV.[c]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Mega Electron Volt per Speed of Light" ;
-  rdfs:label "Mega Electron Volt per Speed of Light"@en ;
-  rdfs:label "Mega Electron Volt per Speed of Light"@en-US .
+  rdfs:label "Megaelectronvolt per Speed of Light" ;
+  rdfs:label "Megaelectronvolt per Speed of Light"@en ;
+  rdfs:label "Megaelectronvolt per Speed of Light"@en-US .
 
 unit:MegaFLOPS
   a qudt:Unit ;
@@ -36934,7 +36934,7 @@ unit:MegaGM-PER-HA
 
 unit:MegaGM-PER-HA-YR
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "Annual flux equivalent to 1000kg per hectare (10000 square meters) or one tonne per hectare per year, typically used to express a  crop yield."^^rdf:HTML ;
+  dcterms:description "Annual flux equivalent to 1000kg per hectare (10000 square meters) or one tonne per hectare per year, typically used to express a crop yield."^^rdf:HTML ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -36944,7 +36944,7 @@ unit:MegaGM-PER-HA-YR
   qudt:exactMatch unit:TONNE-PER-HA-YR ;
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
   qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
-  qudt:plainTextDescription "Annual flux equivalent to 1000kg per hectare (10000 square meters) or one tonne per hectare per year, typically used to express a  crop yield." ;
+  qudt:plainTextDescription "Annual flux equivalent to 1000kg per hectare (10000 square meters) or one tonne per hectare per year, typically used to express a crop yield." ;
   qudt:symbol "Mg/(ha·a)" ;
   qudt:ucumCode "Mg.har-1.a-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
@@ -37013,7 +37013,7 @@ unit:MegaGRAY
 
 unit:MegaHZ
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Megahertz\" is a C.G.S System unit for  'Frequency' expressed as $MHz$."^^qudt:LatexString ;
+  dcterms:description "\"Megahertz\" is a C.G.S System unit for 'Frequency' expressed as $MHz$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -37128,7 +37128,7 @@ unit:MegaHZ-PER-K
 
 unit:MegaHZ-PER-T
   a qudt:Unit ;
-  dcterms:description "\"Mega Hertz per Tesla\" is a unit for  'Electric Charge Per Mass' expressed as $MHz T^{-1}$."^^qudt:LatexString ;
+  dcterms:description "\"Mega Hertz per Tesla\" is a unit for 'Electric Charge Per Mass' expressed as $MHz T^{-1}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
@@ -38803,7 +38803,7 @@ unit:MicroFARAD-PER-M
 
 unit:MicroG
   a qudt:Unit ;
-  dcterms:description "\"Microgravity\" is a unit for  'Linear Acceleration' expressed as $microG$."^^qudt:LatexString ;
+  dcterms:description "\"Microgravity\" is a unit for 'Linear Acceleration' expressed as $microG$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.00000980665 ;
   qudt:conversionMultiplierSN 9.80665E-6 ;
   qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-2D0 ;
@@ -39513,7 +39513,7 @@ unit:MicroH-PER-OHM
 
 unit:MicroIN
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Microinch\" is an Imperial unit for  'Length' expressed as $in^{-6}$."^^qudt:LatexString ;
+  dcterms:description "\"Microinch\" is an Imperial unit for 'Length' expressed as $in^{-6}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0000000254 ;
@@ -39677,7 +39677,7 @@ unit:MicroL-PER-L
 
 unit:MicroM
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Micrometer\" is a unit for  'Length' expressed as $microm$."^^qudt:LatexString ;
+  dcterms:description "\"Micrometer\" is a unit for 'Length' expressed as $microm$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -39888,7 +39888,7 @@ unit:MicroM-PER-SEC
 
 unit:MicroM-PER-SEC2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\\(\\textit{Micrometre per Square Second}\\) is a unit for  \\(\\textit{Linear Acceleration}\\) expressed as \\(um/s^2\\)."^^qudt:LatexString ;
+  dcterms:description "\\(\\textit{Micrometre per Square Second}\\) is a unit for \\(\\textit{Linear Acceleration}\\) expressed as \\(um/s^2\\)."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.000001 ;
   qudt:conversionMultiplierSN 1.0E-6 ;
   qudt:conversionOffset 0.0 ;
@@ -40256,7 +40256,7 @@ unit:MicroMOL-PER-M2-HR
 
 unit:MicroMOL-PER-M2-SEC
   a qudt:Unit ;
-  dcterms:description "One part per 10**6 (million) of the SI unit of quantity of matter (the mole) per SI unit area per SI unit of time.  This term is based on the number of photons in a certain waveband incident per unit time (s) on a unit area (m2) divided by the Avogadro constant (6.022 x 1023 mol-1). It is used commonly to describe PAR in the 400-700 nm waveband. Definition Source: Thimijan, Richard W., and Royal D. Heins. 1982. Photometric, Radiometric, and Quantum Light Units of Measure: A Review of Procedures for Interconversion. HortScience 18:818-822."@en ;
+  dcterms:description "One part per 10**6 (million) of the SI unit of quantity of matter (the mole) per SI unit area per SI unit of time. This term is based on the number of photons in a certain waveband incident per unit time (s) on a unit area (m2) divided by the Avogadro constant (6.022 x 1023 mol-1). It is used commonly to describe PAR in the 400-700 nm waveband. Definition Source: Thimijan, Richard W., and Royal D. Heins. 1982. Photometric, Radiometric, and Quantum Light Units of Measure: A Review of Procedures for Interconversion. HortScience 18:818-822."@en ;
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.000001 ;
   qudt:conversionMultiplierSN 1.0E-6 ;
@@ -40752,7 +40752,7 @@ unit:MicroS2-PER-CentiM2
 
 unit:MicroSEC
   a qudt:Unit ;
-  dcterms:description "\"Microsecond\" is a unit for  'Time' expressed as $microsec$."^^qudt:LatexString ;
+  dcterms:description "\"Microsecond\" is a unit for 'Time' expressed as $microsec$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -40922,7 +40922,7 @@ unit:MicroT
 
 unit:MicroTORR
   a qudt:Unit ;
-  dcterms:description "\"MicroTorr\" is a unit for  'Force Per Area' expressed as $microtorr$."^^qudt:LatexString ;
+  dcterms:description "\"MicroTorr\" is a unit for 'Force Per Area' expressed as $microtorr$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.000133322368421052631578947 ;
   qudt:conversionMultiplierSN 1.33322368421052631578947E-4 ;
   qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-2D0 ;
@@ -41240,7 +41240,7 @@ unit:MicroW-PER-M2
 
 unit:MilLength
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Mil Length\" is a C.G.S System unit for  'Length' expressed as $mil$."^^qudt:LatexString ;
+  dcterms:description "\"Mil Length\" is a C.G.S System unit for 'Length' expressed as $mil$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.0000254 ;
   qudt:conversionMultiplierSN 2.54E-5 ;
   qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
@@ -41424,7 +41424,7 @@ unit:MilliA-PER-LB_F-IN2
 
 unit:MilliA-PER-MilliM
   a qudt:Unit ;
-  dcterms:description "0.001-fold of the SI base unit ampere  divided by the 0.001-fold of the SI base unit metre"^^rdf:HTML ;
+  dcterms:description "0.001-fold of the SI base unit ampere divided by the 0.001-fold of the SI base unit metre"^^rdf:HTML ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
@@ -41434,7 +41434,7 @@ unit:MilliA-PER-MilliM
   qudt:hasQuantityKind quantitykind:LinearElectricCurrentDensity ;
   qudt:hasQuantityKind quantitykind:MagneticFieldStrength ;
   qudt:iec61360Code "0112/2///62720#UAA781" ;
-  qudt:plainTextDescription "0.001-fold of the SI base unit ampere  divided by the 0.001-fold of the SI base unit metre" ;
+  qudt:plainTextDescription "0.001-fold of the SI base unit ampere divided by the 0.001-fold of the SI base unit metre" ;
   qudt:symbol "mA/mm" ;
   qudt:ucumCode "mA.mm-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "F76" ;
@@ -41479,7 +41479,7 @@ unit:MilliA-SEC
 
 unit:MilliARCSEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "A minute of arc, arcminute, or minute arc (MOA), is a unit of angular measurement equal to one sixtieth (1/60) of one degree (circle/21,600), or $\\pi /10,800 radians$. In turn, a second of arc or arcsecond is one sixtieth (1/60) of one minute of arc. Since one degree is defined as one three hundred and sixtieth (1/360) of a rotation, one minute of arc is 1/21,600 of a rotation.  the milliarcsecond, abbreviated mas, is used in astronomy."^^qudt:LatexString ;
+  dcterms:description "A minute of arc, arcminute, or minute arc (MOA), is a unit of angular measurement equal to one sixtieth (1/60) of one degree (circle/21,600), or $\\pi /10,800 radians$. In turn, a second of arc or arcsecond is one sixtieth (1/60) of one minute of arc. Since one degree is defined as one three hundred and sixtieth (1/360) of a rotation, one minute of arc is 1/21,600 of a rotation. The milliarcsecond, abbreviated mas, is used in astronomy."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.00000000484813681 ;
   qudt:conversionMultiplierSN 4.84813681E-9 ;
@@ -41599,8 +41599,8 @@ unit:MilliBAR_A
   qudt:informativeReference "https://en.wikipedia.org/wiki/Bar_(unit)"^^xsd:anyURI ;
   qudt:symbol "mbar abs" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Milli Bar Absolute" ;
-  rdfs:label "Milli Bar Absolute"@en .
+  rdfs:label "Millibar Absolute" ;
+  rdfs:label "Millibar Absolute"@en .
 
 unit:MilliBQ
   a qudt:Unit ;
@@ -42040,7 +42040,7 @@ unit:MilliFARAD
 
 unit:MilliG
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Milligravity\" is a unit for  'Linear Acceleration' expressed as $mG$."^^qudt:LatexString ;
+  dcterms:description "\"Milligravity\" is a unit for 'Linear Acceleration' expressed as $mG$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.00980665 ;
   qudt:conversionMultiplierSN 9.80665E-3 ;
   qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-2D0 ;
@@ -45024,7 +45024,7 @@ unit:MilliM_H2O
   qudt:iec61360Code "0112/2///62720#UAA875" ;
   qudt:plainTextDescription "unit of pressure - 1 mmH2O is the static pressure exerted by a water column with a height of 1 mm" ;
   qudt:scalingOf unit:PA ;
-  qudt:symbol "mmH₂0" ;
+  qudt:symbol "mmH₂O" ;
   qudt:ucumCode "mm[H2O]"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "HP" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q13479685> ;
@@ -45582,8 +45582,8 @@ unit:MilliR_man
   qudt:uneceCommonCode "L31" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q106617364> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Milli Roentgen Equivalent Man" ;
-  rdfs:label "Milli Roentgen Equivalent Man"@en .
+  rdfs:label "Milliroentgen Equivalent Man" ;
+  rdfs:label "Milliroentgen Equivalent Man"@en .
 
 unit:MilliS
   a qudt:Unit ;
@@ -45838,7 +45838,7 @@ unit:MilliT
 
 unit:MilliTORR
   a qudt:Unit ;
-  dcterms:description "\"MilliTorr\" is a unit for  'Force Per Area' expressed as $utorr$."^^qudt:LatexString ;
+  dcterms:description "\"MilliTorr\" is a unit for 'Force Per Area' expressed as $utorr$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.133322368421052631578947 ;
   qudt:conversionMultiplierSN 1.33322368421052631578947E-1 ;
   qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-2D0 ;
@@ -46054,9 +46054,9 @@ unit:MilliVA
   qudt:symbol "mVA" ;
   qudt:ucumCode "mVA"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Milli Volt Ampere" ;
-  rdfs:label "Milli Volt Ampere"@en ;
-  rdfs:label "Milli Volt Ampere"@it ;
+  rdfs:label "Millivolt Ampere" ;
+  rdfs:label "Millivolt Ampere"@en ;
+  rdfs:label "Millivolt Ampere"@it ;
   rdfs:label "Millivoltampere"@de ;
   rdfs:label "Millivoltampère"@fr ;
   rdfs:label "Millivoltiamperio"@es .
@@ -46072,9 +46072,9 @@ unit:MilliVA-PER-K
   qudt:symbol "mVA/K" ;
   qudt:ucumCode "mVA.K-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Milli Volt Ampere per Kelvin" ;
-  rdfs:label "Milli Volt Ampere per Kelvin"@en ;
-  rdfs:label "Milli Volt Ampere per Kelvin"@it ;
+  rdfs:label "Millivolt Ampere per Kelvin" ;
+  rdfs:label "Millivolt Ampere per Kelvin"@en ;
+  rdfs:label "Millivolt Ampere per Kelvin"@it ;
   rdfs:label "Millivoltampere pro Kelvin"@de ;
   rdfs:label "Millivoltampère par Kelvin"@fr ;
   rdfs:label "Millivoltiamperio por Kelvin"@es .
@@ -46090,8 +46090,8 @@ unit:MilliVAR
   qudt:symbol "mvar" ;
   qudt:ucumCode "mvar"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Milli Volt Ampere Reactive" ;
-  rdfs:label "Milli Volt Ampere Reactive"@en .
+  rdfs:label "Millivolt Ampere Reactive" ;
+  rdfs:label "Millivolt Ampere Reactive"@en .
 
 unit:MilliVAR-PER-K
   a qudt:Unit ;
@@ -46104,8 +46104,8 @@ unit:MilliVAR-PER-K
   qudt:symbol "mvar/K" ;
   qudt:ucumCode "mvar.K-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Milli Volt Ampere Reactive per Kelvin" ;
-  rdfs:label "Milli Volt Ampere Reactive per Kelvin"@en .
+  rdfs:label "Millivolt Ampere Reactive per Kelvin" ;
+  rdfs:label "Millivolt Ampere Reactive per Kelvin"@en .
 
 unit:MilliW
   a qudt:Unit ;
@@ -46325,8 +46325,8 @@ unit:MillionUSD-PER-YR
   qudt:hasQuantityKind quantitykind:Unknown ;
   qudt:symbol "$M/a" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Million Us Dollars per Year" ;
-  rdfs:label "Million Us Dollars per Year"@en .
+  rdfs:label "Million US Dollars per Year" ;
+  rdfs:label "Million US Dollars per Year"@en .
 
 unit:N
   a qudt:DerivedUnit, qudt:Unit ;
@@ -47732,7 +47732,7 @@ unit:NT
 
 unit:NTU
   a qudt:Unit ;
-  dcterms:description "\"Nephelometry Turbidity Unit\" is a C.G.S System unit for  'Turbidity' expressed as $NTU$."^^qudt:LatexString ;
+  dcterms:description "\"Nephelometry Turbidity Unit\" is a C.G.S System unit for 'Turbidity' expressed as $NTU$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.0 ;
   qudt:conversionMultiplierSN 0.0E0 ;
@@ -47745,7 +47745,7 @@ unit:NTU
 
 unit:NUM
   a qudt:CountingUnit, qudt:Unit ;
-  dcterms:description "\"Number\" is a unit for  'Dimensionless' expressed as (\\#$."^^rdf:HTML ;
+  dcterms:description "\"Number\" is a unit for 'Dimensionless' expressed as (\\#$."^^rdf:HTML ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -48078,7 +48078,7 @@ unit:NUM-PER-SEC
 
 unit:NUM-PER-YR
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Number per Year\" is a unit for  'Frequency' expressed as $\\#/yr$."^^qudt:LatexString ;
+  dcterms:description "\"Number per Year\" is a unit for 'Frequency' expressed as $\\#/yr$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.00000003168808781402895023702689684893655 ;
   qudt:conversionMultiplierSN 3.168808781402895023702689684893655E-8 ;
@@ -49688,12 +49688,12 @@ unit:NanoVA
   qudt:symbol "nVA" ;
   qudt:ucumCode "nVA"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Nano Volt Ampere" ;
-  rdfs:label "Nano Volt Ampere"@en ;
-  rdfs:label "Nano Volt Ampere"@it ;
-  rdfs:label "Nanovoltampere"@de ;
-  rdfs:label "Nanovoltampère"@fr ;
-  rdfs:label "Nanovoltiamperio"@es .
+  rdfs:label "Nanovolt Ampere" ;
+  rdfs:label "Nanovolt Ampere"@en ;
+  rdfs:label "Nanovolt Ampere"@it ;
+  rdfs:label "Nanovolt Ampere"@de ;
+  rdfs:label "Nanovolt Ampère"@fr ;
+  rdfs:label "Nanovolti Amperio"@es .
 
 unit:NanoVAR
   a qudt:Unit ;
@@ -49706,8 +49706,8 @@ unit:NanoVAR
   qudt:symbol "nvar" ;
   qudt:ucumCode "nvar"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Nano Volt Ampere Reactive" ;
-  rdfs:label "Nano Volt Ampere Reactive"@en .
+  rdfs:label "Nanovolt Ampere Reactive" ;
+  rdfs:label "Nanovolt Ampere Reactive"@en .
 
 unit:NanoW
   a qudt:Unit ;
@@ -49771,7 +49771,7 @@ unit:NanoW-PER-M2
 
 unit:OCT
   a qudt:DimensionlessUnit, qudt:LogarithmicUnit, qudt:Unit ;
-  dcterms:description "An octave is a doubling or halving of a frequency.  One oct is the logarithmic frequency interval between $f1$ and $f2$ when $f2/f1 = 2$."^^qudt:LatexString ;
+  dcterms:description "An octave is a doubling or halving of a frequency. One oct is the logarithmic frequency interval between $f1$ and $f2$ when $f2/f1 = 2$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -49854,7 +49854,7 @@ unit:OERSTED
 
 unit:OERSTED-CentiM
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Oersted Centimeter\" is a C.G.S System unit for  'Magnetomotive Force' expressed as $Oe-cm$."^^qudt:LatexString ;
+  dcterms:description "\"Oersted Centimeter\" is a C.G.S System unit for 'Magnetomotive Force' expressed as $Oe-cm$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 0.795774715 ;
   qudt:conversionMultiplierSN 7.95774715E-1 ;
@@ -50352,7 +50352,7 @@ unit:OZ
 
 unit:OZ-FT
   a qudt:Unit ;
-  dcterms:description "unit of the unbalance as a product of avoirdupois ounce according to  the avoirdupois system of units and foot according to the Anglo-American and Imperial system of units"^^rdf:HTML ;
+  dcterms:description "unit of the unbalance as a product of avoirdupois ounce according to the avoirdupois system of units and foot according to the Anglo-American and Imperial system of units"^^rdf:HTML ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0086409346485 ;
@@ -50360,7 +50360,7 @@ unit:OZ-FT
   qudt:hasDimensionVector qkdv:A0E0L1I0M1H0T0D0 ;
   qudt:hasQuantityKind quantitykind:LengthMass ;
   qudt:iec61360Code "0112/2///62720#UAB133" ;
-  qudt:plainTextDescription "unit of the unbalance as a product of avoirdupois ounce according to  the avoirdupois system of units and foot according to the Anglo-American and Imperial system of units" ;
+  qudt:plainTextDescription "unit of the unbalance as a product of avoirdupois ounce according to the avoirdupois system of units and foot according to the Anglo-American and Imperial system of units" ;
   qudt:symbol "oz·ft" ;
   qudt:ucumCode "[oz_av].[ft_i]"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "4R" ;
@@ -50449,8 +50449,8 @@ unit:OZ-HR-PER-IN3-GAL_US
   qudt:symbol "oz·h/(in³·gal{US})" ;
   qudt:ucumCode "[oz_av].h.[in_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Ounce Mass Hour per Cubic Inch Us Gallon" ;
-  rdfs:label "Ounce Mass Hour per Cubic Inch Us Gallon"@en .
+  rdfs:label "Ounce Mass Hour per Cubic Inch Gallon (US)" ;
+  rdfs:label "Ounce Mass Hour per Cubic Inch Gallon (US)"@en .
 
 unit:OZ-HR-PER-IN3-YD3
   a qudt:Unit ;
@@ -50482,7 +50482,7 @@ unit:OZ-HR-PER-IN6
 
 unit:OZ-IN
   a qudt:Unit ;
-  dcterms:description "unit of the unbalance as a product of avoirdupois ounce according to  the avoirdupois system of units and inch according to the Anglo-American and Imperial system of units"^^rdf:HTML ;
+  dcterms:description "unit of the unbalance as a product of avoirdupois ounce according to the avoirdupois system of units and inch according to the Anglo-American and Imperial system of units"^^rdf:HTML ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.000720077887375 ;
@@ -50490,7 +50490,7 @@ unit:OZ-IN
   qudt:hasDimensionVector qkdv:A0E0L1I0M1H0T0D0 ;
   qudt:hasQuantityKind quantitykind:LengthMass ;
   qudt:iec61360Code "0112/2///62720#UAB132" ;
-  qudt:plainTextDescription "unit of the unbalance as a product of avoirdupois ounce according to  the avoirdupois system of units and inch according to the Anglo-American and Imperial system of units" ;
+  qudt:plainTextDescription "unit of the unbalance as a product of avoirdupois ounce according to the avoirdupois system of units and inch according to the Anglo-American and Imperial system of units" ;
   qudt:symbol "oz·in" ;
   qudt:ucumCode "[oz_av].[in_i]"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "4Q" ;
@@ -50551,8 +50551,8 @@ unit:OZ-MIN-PER-IN3-GAL_US
   qudt:symbol "oz·min/(in³·gal{US})" ;
   qudt:ucumCode "[oz_av].min.[in_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Ounce Mass Minute per Cubic Inch Us Gallon" ;
-  rdfs:label "Ounce Mass Minute per Cubic Inch Us Gallon"@en .
+  rdfs:label "Ounce Mass Minute per Cubic Inch Gallon (US)" ;
+  rdfs:label "Ounce Mass Minute per Cubic Inch Gallon (US)"@en .
 
 unit:OZ-MIN-PER-IN3-YD3
   a qudt:Unit ;
@@ -50602,7 +50602,7 @@ unit:OZ-PER-DAY
 
 unit:OZ-PER-FT2
   a qudt:Unit ;
-  dcterms:description "\"Ounce per Square Foot\" is an Imperial unit for  'Mass Per Area' expressed as $oz/ft^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Ounce per Square Foot\" is an Imperial unit for 'Mass Per Area' expressed as $oz/ft^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.305151727273940658992429095969303 ;
@@ -50622,7 +50622,7 @@ unit:OZ-PER-FT2
 
 unit:OZ-PER-GAL_IMP
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Ounce per Gallon\" is an Imperial unit for  'Density' expressed as $oz/gal$."^^qudt:LatexString ;
+  dcterms:description "\"Ounce per Gallon\" is an Imperial unit for 'Density' expressed as $oz/gal$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:conversionMultiplier 6.236023291443856148910382328550469 ;
   qudt:conversionMultiplierSN 6.236023291443856148910382328550469E0 ;
@@ -50675,8 +50675,8 @@ unit:OZ-PER-GAL_US
   qudt:ucumCode "[oz_av].[gal_us]-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L38" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Ounce Mass per Us Gallon" ;
-  rdfs:label "Ounce Mass per Us Gallon"@en .
+  rdfs:label "Ounce Mass per Gallon (US)" ;
+  rdfs:label "Ounce Mass per Gallon (US)"@en .
 
 unit:OZ-PER-HR
   a qudt:Unit ;
@@ -50716,7 +50716,7 @@ unit:OZ-PER-IN2
 
 unit:OZ-PER-IN3
   a qudt:Unit ;
-  dcterms:description "\"Ounce per Cubic Inch\" is an Imperial unit for  'Density' expressed as $oz/in^{3}$."^^qudt:LatexString ;
+  dcterms:description "\"Ounce per Cubic Inch\" is an Imperial unit for 'Density' expressed as $oz/in^{3}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 1729.994044387695074602747630692112 ;
@@ -50772,7 +50772,7 @@ unit:OZ-PER-SEC
 
 unit:OZ-PER-YD2
   a qudt:Unit ;
-  dcterms:description "\"Ounce per Square Yard\" is an Imperial unit for  'Mass Per Area' expressed as $oz/yd^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Ounce per Square Yard\" is an Imperial unit for 'Mass Per Area' expressed as $oz/yd^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.03390574747488229544360323288547811 ;
@@ -50792,7 +50792,7 @@ unit:OZ-PER-YD2
 
 unit:OZ-PER-YD3
   a qudt:Unit ;
-  dcterms:description "unit ounce  according to the avoirdupois system of units divided by the power of the unit yard according to the Anglo-American and the Imperial system of units with the exponent 3"^^rdf:HTML ;
+  dcterms:description "unit ounce according to the avoirdupois system of units divided by the power of the unit yard according to the Anglo-American and the Imperial system of units with the exponent 3"^^rdf:HTML ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.03707977632861143421216451540406617 ;
@@ -50801,7 +50801,7 @@ unit:OZ-PER-YD3
   qudt:hasQuantityKind quantitykind:Density ;
   qudt:hasQuantityKind quantitykind:MassDensity ;
   qudt:iec61360Code "0112/2///62720#UAA918" ;
-  qudt:plainTextDescription "unit ounce  according to the avoirdupois system of units divided by the power of the unit yard according to the Anglo-American and the Imperial system of units with the exponent 3" ;
+  qudt:plainTextDescription "unit ounce according to the avoirdupois system of units divided by the power of the unit yard according to the Anglo-American and the Imperial system of units with the exponent 3" ;
   qudt:symbol "oz/yd³" ;
   qudt:ucumCode "[oz_av].[yd_i]-3"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "G32" ;
@@ -50848,8 +50848,8 @@ unit:OZ-SEC-PER-IN3-GAL_US
   qudt:symbol "oz·s/(in³·gal{US})" ;
   qudt:ucumCode "[oz_av].s.[in_i]-3.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Ounce Mass Second per Cubic Inch Us Gallon" ;
-  rdfs:label "Ounce Mass Second per Cubic Inch Us Gallon"@en .
+  rdfs:label "Ounce Mass Second per Cubic Inch Gallon (US)" ;
+  rdfs:label "Ounce Mass Second per Cubic Inch Gallon (US)"@en .
 
 unit:OZ-SEC-PER-IN3-YD3
   a qudt:Unit ;
@@ -50881,7 +50881,7 @@ unit:OZ-SEC-PER-IN6
 
 unit:OZ_F
   a qudt:Unit ;
-  dcterms:description "\"Ounce Force\" is an Imperial unit for  'Force' expressed as $ozf$."^^qudt:LatexString ;
+  dcterms:description "\"Ounce Force\" is an Imperial unit for 'Force' expressed as $ozf$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.278013850954 ;
@@ -50902,7 +50902,7 @@ unit:OZ_F
 
 unit:OZ_F-IN
   a qudt:Unit ;
-  dcterms:description "\"Ounce Force Inch\" is an Imperial unit for  'Torque' expressed as $ozf-in$."^^qudt:LatexString ;
+  dcterms:description "\"Ounce Force Inch\" is an Imperial unit for 'Torque' expressed as $ozf-in$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0070615518142316 ;
@@ -51068,7 +51068,7 @@ unit:OZ_VOL_UK-PER-SEC
 
 unit:OZ_VOL_US
   a qudt:Unit ;
-  dcterms:description "\"US Liquid Ounce\" is a unit for  'Liquid Volume' expressed as $oz$."^^qudt:LatexString ;
+  dcterms:description "\"US Liquid Ounce\" is a unit for 'Liquid Volume' expressed as $oz$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.0000295735296 ;
   qudt:conversionMultiplierSN 2.95735296E-5 ;
@@ -51083,8 +51083,8 @@ unit:OZ_VOL_US
   qudt:uneceCommonCode "OZA" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q32750759> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Ounce" ;
-  rdfs:label "Us Liquid Ounce"@en .
+  rdfs:label "US Liquid Ounce" ;
+  rdfs:label "US Liquid Ounce"@en .
 
 unit:OZ_VOL_US-PER-DAY
   a qudt:Unit ;
@@ -51101,8 +51101,8 @@ unit:OZ_VOL_US-PER-DAY
   qudt:ucumCode "[foz_us].d-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J99" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Ounce per Day" ;
-  rdfs:label "Us Liquid Ounce per Day"@en .
+  rdfs:label "US Liquid Ounce per Day" ;
+  rdfs:label "US Liquid Ounce per Day"@en .
 
 unit:OZ_VOL_US-PER-HR
   a qudt:Unit ;
@@ -51119,8 +51119,8 @@ unit:OZ_VOL_US-PER-HR
   qudt:ucumCode "[foz_us].h-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "K10" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Ounce per Hour" ;
-  rdfs:label "Us Liquid Ounce per Hour"@en .
+  rdfs:label "US Liquid Ounce per Hour" ;
+  rdfs:label "US Liquid Ounce per Hour"@en .
 
 unit:OZ_VOL_US-PER-MIN
   a qudt:Unit ;
@@ -51137,8 +51137,8 @@ unit:OZ_VOL_US-PER-MIN
   qudt:ucumCode "[foz_us].min-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "K11" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Ounce per Minute" ;
-  rdfs:label "Us Liquid Ounce per Minute"@en .
+  rdfs:label "US Liquid Ounce per Minute" ;
+  rdfs:label "US Liquid Ounce per Minute"@en .
 
 unit:OZ_VOL_US-PER-SEC
   a qudt:Unit ;
@@ -51155,8 +51155,8 @@ unit:OZ_VOL_US-PER-SEC
   qudt:ucumCode "[foz_us].s-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "K12" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Ounce per Second" ;
-  rdfs:label "Us Liquid Ounce per Second"@en .
+  rdfs:label "US Liquid Ounce per Second" ;
+  rdfs:label "US Liquid Ounce per Second"@en .
 
 unit:PA
   a qudt:DerivedUnit, qudt:Unit ;
@@ -51869,7 +51869,7 @@ unit:PARSEC
 
 unit:PCA
   a qudt:Unit ;
-  dcterms:description "A pica is a typographic unit of measure corresponding to 1/72 of its respective foot, and therefore to 1/6 of an inch. The pica contains 12 point units of measure. Notably, Adobe PostScript promoted the pica unit of measure that is the standard in contemporary printing, as in home computers and printers. Usually, pica measurements are represented with an upper-case 'P' with an upper-right-to-lower-left virgule (slash) starting in the upper right portion of the 'P' and ending at the lower left of the upright portion of the 'P'; essentially drawing a virgule (/) through a 'P'.  Note that these definitions are different from a typewriter's pica setting, which denotes a type size of ten characters per horizontal inch."^^rdf:HTML ;
+  dcterms:description "A pica is a typographic unit of measure corresponding to 1/72 of its respective foot, and therefore to 1/6 of an inch. The pica contains 12 point units of measure. Notably, Adobe PostScript promoted the pica unit of measure that is the standard in contemporary printing, as in home computers and printers. Usually, pica measurements are represented with an upper-case 'P' with an upper-right-to-lower-left virgule (slash) starting in the upper right portion of the 'P' and ending at the lower left of the upright portion of the 'P'; essentially drawing a virgule (/) through a 'P'. Note that these definitions are different from a typewriter's pica setting, which denotes a type size of ten characters per horizontal inch."^^rdf:HTML ;
   qudt:conversionMultiplier 0.0042333 ;
   qudt:conversionMultiplierSN 4.2333E-3 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Pica"^^xsd:anyURI ;
@@ -52743,8 +52743,8 @@ unit:PER-KiloVA-HR
   qudt:symbol "/(kVA·h)" ;
   qudt:ucumCode "kVA-1.h-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Reciprocal Kilo Volt Ampere Hour" ;
-  rdfs:label "Reciprocal Kilo Volt Ampere Hour"@en .
+  rdfs:label "Reciprocal Kilovolt Ampere Hour" ;
+  rdfs:label "Reciprocal Kilovolt Ampere Hour"@en .
 
 unit:PER-L
   a qudt:Unit ;
@@ -53695,7 +53695,7 @@ unit:PER-PicoM
 
 unit:PER-PlanckMass2
   a qudt:Unit ;
-  dcterms:description "In physics, the Planck mass, denoted by $m_P$, is the unit of mass in the system of natural units known as Planck units. It is defined so that $\\approx  1.2209 \\times 10 GeV/c_0 = 2.17651(13) \\times 10 kg$, (or $21.7651 \\mu g$), where $c_0$ is the speed of light in a vacuum, $G$ is the gravitational constant, and $\\hbar$ is the reduced Planck constant. Particle physicists and cosmologists often use the reduced Planck mass, which is $\\approx  4.341 \\times 10 kg = 2.435  \\times 10 GeV/c$. The added factor of $1/{\\sqrt{8\\pi}}$ simplifies a number of equations in general relativity. Quantum effects are typified by the magnitude of Planck's constant."^^qudt:LatexString ;
+  dcterms:description "In physics, the Planck mass, denoted by $m_P$, is the unit of mass in the system of natural units known as Planck units. It is defined so that $\\approx 1.2209 \\times 10 GeV/c_0 = 2.17651(13) \\times 10 kg$, (or $21.7651 \\mu g$), where $c_0$ is the speed of light in a vacuum, $G$ is the gravitational constant, and $\\hbar$ is the reduced Planck constant. Particle physicists and cosmologists often use the reduced Planck mass, which is $\\approx 4.341 \\times 10 kg = 2.435 \\times 10 GeV/c$. The added factor of $1/{\\sqrt{8\\pi}}$ simplifies a number of equations in general relativity. Quantum effects are typified by the magnitude of Planck's constant."^^qudt:LatexString ;
   qudt:applicableSystem sou:PLANCK ;
   qudt:conversionMultiplier 2111089287176721.707084516481080014 ;
   qudt:conversionMultiplierSN 2.111089287176721707084516481080014E15 ;
@@ -54305,7 +54305,7 @@ unit:PER-YR
 
 unit:PERCENT
   a qudt:Unit ;
-  dcterms:description "\"Percent\" is a unit for  'Dimensionless Ratio' expressed as $\\%$."^^qudt:LatexString ;
+  dcterms:description "\"Percent\" is a unit for 'Dimensionless Ratio' expressed as $\\%$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -54443,8 +54443,8 @@ unit:PERCENT-HR-PER-GAL_US
   qudt:symbol "%·h/gal{US}" ;
   qudt:ucumCode "%.h.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Percent Hour per Us Gallon" ;
-  rdfs:label "Percent Hour per Us Gallon"@en .
+  rdfs:label "Percent Hour per Gallon (US)" ;
+  rdfs:label "Percent Hour per Gallon (US)"@en .
 
 unit:PERCENT-HR-PER-IN3
   a qudt:Unit ;
@@ -54572,8 +54572,8 @@ unit:PERCENT-MIN-PER-GAL_US
   qudt:symbol "%·min/gal{US}" ;
   qudt:ucumCode "%.min.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Percent Minute per Us Gallon" ;
-  rdfs:label "Percent Minute per Us Gallon"@en .
+  rdfs:label "Percent Minute per Gallon (US)" ;
+  rdfs:label "Percent Minute per Gallon (US)"@en .
 
 unit:PERCENT-MIN-PER-IN3
   a qudt:Unit ;
@@ -55155,8 +55155,8 @@ unit:PERCENT-SEC-PER-GAL_US
   qudt:symbol "%·s/gal{US}" ;
   qudt:ucumCode "%.s.[gal_us]-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Percent Second per Us Gallon" ;
-  rdfs:label "Percent Second per Us Gallon"@en .
+  rdfs:label "Percent Second per Gallon (US)" ;
+  rdfs:label "Percent Second per Gallon (US)"@en .
 
 unit:PERCENT-SEC-PER-IN3
   a qudt:Unit ;
@@ -55439,8 +55439,8 @@ unit:PERM_US
   qudt:scalingOf unit:SEC-PER-M ;
   qudt:symbol "perm{US}" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "U.s. Perm" ;
-  rdfs:label "U.s. Perm"@en .
+  rdfs:label "US Perm" ;
+  rdfs:label "US Perm"@en .
 
 unit:PFERDESTAERKE
   a qudt:Unit ;
@@ -55550,7 +55550,7 @@ unit:PHON
 
 unit:PHOT
   a qudt:Unit ;
-  dcterms:description "A phot (ph) is a photometric unit of illuminance, or luminous flux through an area. It is not an SI unit, but rather is associated with the older centimetre gram second system of units.  Metric dimensions: $illuminance = luminous intensity \\times solid angle / length$."^^qudt:LatexString ;
+  dcterms:description "A phot (ph) is a photometric unit of illuminance, or luminous flux through an area. It is not an SI unit, but rather is associated with the older centimetre gram second system of units. Metric dimensions: $illuminance = luminous intensity \\times solid angle / length$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 10000.0 ;
   qudt:conversionMultiplierSN 1.0E4 ;
@@ -55573,7 +55573,7 @@ unit:PHOT
 
 unit:PINT
   a qudt:Unit ;
-  dcterms:description "\"Imperial Pint\" is an Imperial unit for  'Volume' expressed as $pint$."^^qudt:LatexString ;
+  dcterms:description "\"Imperial Pint\" is an Imperial unit for 'Volume' expressed as $pint$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:conversionMultiplier 0.00056826125 ;
   qudt:conversionMultiplierSN 5.6826125E-4 ;
@@ -55687,7 +55687,7 @@ unit:PINT_UK-PER-SEC
 
 unit:PINT_US
   a qudt:Unit ;
-  dcterms:description "\"US Liquid Pint\" is a unit for  'Liquid Volume' expressed as $pt$."^^qudt:LatexString ;
+  dcterms:description "\"US Liquid Pint\" is a unit for 'Liquid Volume' expressed as $pt$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.000473176473 ;
   qudt:conversionMultiplierSN 4.73176473E-4 ;
@@ -55707,8 +55707,8 @@ unit:PINT_US
   qudt:uneceCommonCode "PTL" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q32750621> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Pint" ;
-  rdfs:label "Us Liquid Pint"@en .
+  rdfs:label "US Liquid Pint" ;
+  rdfs:label "US Liquid Pint"@en .
 
 unit:PINT_US-PER-DAY
   a qudt:Unit ;
@@ -55725,8 +55725,8 @@ unit:PINT_US-PER-DAY
   qudt:ucumCode "[pt_us].d-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L57" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Pint per Day" ;
-  rdfs:label "Us Liquid Pint per Day"@en .
+  rdfs:label "US Liquid Pint per Day" ;
+  rdfs:label "US Liquid Pint per Day"@en .
 
 unit:PINT_US-PER-HR
   a qudt:Unit ;
@@ -55743,8 +55743,8 @@ unit:PINT_US-PER-HR
   qudt:ucumCode "[pt_us].h-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L58" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Pint per Hour" ;
-  rdfs:label "Us Liquid Pint per Hour"@en .
+  rdfs:label "US Liquid Pint per Hour" ;
+  rdfs:label "US Liquid Pint per Hour"@en .
 
 unit:PINT_US-PER-MIN
   a qudt:Unit ;
@@ -55761,8 +55761,8 @@ unit:PINT_US-PER-MIN
   qudt:ucumCode "[pt_us].min-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L59" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Pint per Minute" ;
-  rdfs:label "Us Liquid Pint per Minute"@en .
+  rdfs:label "US Liquid Pint per Minute" ;
+  rdfs:label "US Liquid Pint per Minute"@en .
 
 unit:PINT_US-PER-SEC
   a qudt:Unit ;
@@ -55779,12 +55779,12 @@ unit:PINT_US-PER-SEC
   qudt:ucumCode "[pt_us].s-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L60" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Pint per Second" ;
-  rdfs:label "Us Liquid Pint per Second"@en .
+  rdfs:label "US Liquid Pint per Second" ;
+  rdfs:label "US Liquid Pint per Second"@en .
 
 unit:PINT_US_DRY
   a qudt:Unit ;
-  dcterms:description "\"US Dry Pint\" is a C.G.S System unit for  'Dry Volume' expressed as $dry_pt$."^^qudt:LatexString ;
+  dcterms:description "\"US Dry Pint\" is a C.G.S System unit for 'Dry Volume' expressed as $dry_pt$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.000550610471 ;
   qudt:conversionMultiplierSN 5.50610471E-4 ;
@@ -55799,8 +55799,8 @@ unit:PINT_US_DRY
   qudt:uneceCommonCode "PTD" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q32751272> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Dry Pint" ;
-  rdfs:label "Us Dry Pint"@en .
+  rdfs:label "US Dry Pint" ;
+  rdfs:label "US Dry Pint"@en .
 
 unit:PIXEL
   a qudt:Unit ;
@@ -55959,8 +55959,8 @@ unit:PK_US_DRY
   qudt:uneceCommonCode "PY" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q101427873> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Peck" ;
-  rdfs:label "Us Peck"@en .
+  rdfs:label "US Peck" ;
+  rdfs:label "US Peck"@en .
 
 unit:PK_US_DRY-PER-DAY
   a qudt:Unit ;
@@ -55977,8 +55977,8 @@ unit:PK_US_DRY-PER-DAY
   qudt:ucumCode "[pk_us].d-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L48" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Peck per Day" ;
-  rdfs:label "Us Peck per Day"@en .
+  rdfs:label "US Peck per Day" ;
+  rdfs:label "US Peck per Day"@en .
 
 unit:PK_US_DRY-PER-HR
   a qudt:Unit ;
@@ -55995,8 +55995,8 @@ unit:PK_US_DRY-PER-HR
   qudt:ucumCode "[pk_us].h-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L49" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Peck per Hour" ;
-  rdfs:label "Us Peck per Hour"@en .
+  rdfs:label "US Peck per Hour" ;
+  rdfs:label "US Peck per Hour"@en .
 
 unit:PK_US_DRY-PER-MIN
   a qudt:Unit ;
@@ -56013,8 +56013,8 @@ unit:PK_US_DRY-PER-MIN
   qudt:ucumCode "[pk_us].min-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L50" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Peck per Minute" ;
-  rdfs:label "Us Peck per Minute"@en .
+  rdfs:label "US Peck per Minute" ;
+  rdfs:label "US Peck per Minute"@en .
 
 unit:PK_US_DRY-PER-SEC
   a qudt:Unit ;
@@ -56031,8 +56031,8 @@ unit:PK_US_DRY-PER-SEC
   qudt:ucumCode "[pk_us].s-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L51" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Peck per Second" ;
-  rdfs:label "Us Peck per Second"@en .
+  rdfs:label "US Peck per Second" ;
+  rdfs:label "US Peck per Second"@en .
 
 unit:POISE
   a qudt:Unit ;
@@ -56150,8 +56150,8 @@ unit:PPB
   qudt:uneceCommonCode "61" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q2055118> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Billion" ;
-  rdfs:label "Parts per Billion"@en .
+  rdfs:label "Part per Billion" ;
+  rdfs:label "Part per Billion"@en .
 
 unit:PPM
   a qudt:Unit ;
@@ -56178,8 +56178,8 @@ unit:PPM
   qudt:uneceCommonCode "59" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q21006887> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Million" ;
-  rdfs:label "Parts per Million"@en .
+  rdfs:label "Part per Million" ;
+  rdfs:label "Part per Million"@en .
 
 unit:PPM-PER-K
   a qudt:Unit ;
@@ -56193,8 +56193,8 @@ unit:PPM-PER-K
   qudt:symbol "PPM/K" ;
   qudt:ucumCode "[ppm].K-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Million per Kelvin" ;
-  rdfs:label "Parts per Million per Kelvin"@en .
+  rdfs:label "Part per Million per Kelvin" ;
+  rdfs:label "Part per Million per Kelvin"@en .
 
 unit:PPQ
   a qudt:Unit ;
@@ -56270,8 +56270,8 @@ unit:PPTH
   qudt:uneceCommonCode "NX" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q99487704> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Thousand" ;
-  rdfs:label "Parts per Thousand"@en ;
+  rdfs:label "Part per Thousand" ;
+  rdfs:label "Part per Thousand"@en ;
   skos:altLabel "per mil" .
 
 unit:PPTH-PER-HR
@@ -56283,8 +56283,8 @@ unit:PPTH-PER-HR
   qudt:symbol "‰/h" ;
   qudt:ucumCode "[ppth].h-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Thousand per Hour" ;
-  rdfs:label "Parts per Thousand per Hour"@en .
+  rdfs:label "Part per Thousand per Hour" ;
+  rdfs:label "Part per Thousand per Hour"@en .
 
 unit:PPTM
   a qudt:Unit ;
@@ -56305,8 +56305,8 @@ unit:PPTM
   qudt:scalingOf unit:NUM ;
   qudt:symbol "PPTM" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Ten Million" ;
-  rdfs:label "Parts per Ten Million"@en .
+  rdfs:label "Part per Ten Million" ;
+  rdfs:label "Part per Ten Million"@en .
 
 unit:PPTM-PER-K
   a qudt:Unit ;
@@ -56319,8 +56319,8 @@ unit:PPTM-PER-K
   qudt:hasQuantityKind quantitykind:ThermalExpansionCoefficient ;
   qudt:symbol "PPTM/K" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Ten Million per Kelvin" ;
-  rdfs:label "Parts per Ten Million per Kelvin"@en .
+  rdfs:label "Part per Ten Million per Kelvin" ;
+  rdfs:label "Part per Ten Million per Kelvin"@en .
 
 unit:PPTR_VOL
   a qudt:Unit ;
@@ -56343,8 +56343,8 @@ unit:PPTR_VOL
   qudt:symbol "pptr" ;
   qudt:ucumCode "[pptr]{vol}"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Trillion by Volume" ;
-  rdfs:label "Parts per Trillion by Volume"@en .
+  rdfs:label "Part per Trillion by Volume" ;
+  rdfs:label "Part per Trillion by Volume"@en .
 
 unit:PPT_VOL
   a qudt:ContextualUnit, qudt:Unit ;
@@ -56365,8 +56365,8 @@ unit:PPT_VOL
   qudt:symbol "ppt (volume)" ;
   qudt:ucumCode "[pptr]{vol}"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Parts per Trillion by Volume" ;
-  rdfs:label "Parts per Trillion by Volume"@en ;
+  rdfs:label "Part per Trillion by Volume" ;
+  rdfs:label "Part per Trillion by Volume"@en ;
   skos:broader unit:PPT .
 
 unit:PSI
@@ -56619,7 +56619,7 @@ unit:PebiBIT-PER-M3
 
 unit:PebiBYTE
   a qudt:CountingUnit, qudt:Unit ;
-  dcterms:description "The pebibyte is a standards-based binary multiple (prefix pebi, symbol Pi) of the byte, a unit of digital information storage. The pebibyte unit symbol is PiB. 1 pebibyte =  1125899906842624bytes = 1024 tebibytes The pebibyte is closely related to the petabyte, which is defined as $10^{15} bytes = 1,000,000,000,000,000 bytes$."^^qudt:LatexString ;
+  dcterms:description "The pebibyte is a standards-based binary multiple (prefix pebi, symbol Pi) of the byte, a unit of digital information storage. The pebibyte unit symbol is PiB. 1 pebibyte = 1125899906842624bytes = 1024 tebibytes The pebibyte is closely related to the petabyte, which is defined as $10^{15} bytes = 1,000,000,000,000,000 bytes$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -58099,7 +58099,7 @@ unit:PlanckCharge
 
 unit:PlanckCurrent
   a qudt:Unit ;
-  dcterms:description "The Planck current is the unit of electric current, denoted by IP, in the system of natural units known as Planck units. $\\approx 3.479 \\times 10 A$, where:  the Planck time is the permittivity in vacuum and the reduced Planck constant G is the gravitational constant c is the speed of light in vacuum. The Planck current is that current which, in a conductor, carries a Planck charge in Planck time. Alternatively, the Planck current is that constant current which, if maintained in two straight parallel conductors of infinite length and negligible circular cross-section, and placed a Planck length apart in vacuum, would produce between these conductors a force equal to a Planck force per Planck length."^^qudt:LatexString ;
+  dcterms:description "The Planck current is the unit of electric current, denoted by IP, in the system of natural units known as Planck units. $\\approx 3.479 \\times 10 A$, where: the Planck time is the permittivity in vacuum and the reduced Planck constant G is the gravitational constant c is the speed of light in vacuum. The Planck current is that current which, in a conductor, carries a Planck charge in Planck time. Alternatively, the Planck current is that constant current which, if maintained in two straight parallel conductors of infinite length and negligible circular cross-section, and placed a Planck length apart in vacuum, would produce between these conductors a force equal to a Planck force per Planck length."^^qudt:LatexString ;
   qudt:applicableSystem sou:PLANCK ;
   qudt:conversionMultiplier 34789000000000000000000000.0 ;
   qudt:conversionMultiplierSN 3.4789E25 ;
@@ -58132,7 +58132,7 @@ unit:PlanckCurrentDensity
 
 unit:PlanckDensity
   a qudt:Unit ;
-  dcterms:description "The Planck density is the unit of density, denoted by $\\rho_P$, in the system of natural units known as Planck units. $1\\  \\rho_P \\ is \\approx 5.155 \\times 10^{96} kg/m^3$. This is a unit which is very large, about equivalent to $10^{23}$ solar masses squeezed into the space of a single atomic nucleus. At one unit of Planck time after the Big Bang, the mass density of the universe is thought to have been approximately one unit of Planck density."^^qudt:LatexString ;
+  dcterms:description "The Planck density is the unit of density, denoted by $\\rho_P$, in the system of natural units known as Planck units. $1\\ \\rho_P \\ is \\approx 5.155 \\times 10^{96} kg/m^3$. This is a unit which is very large, about equivalent to $10^{23}$ solar masses squeezed into the space of a single atomic nucleus. At one unit of Planck time after the Big Bang, the mass density of the universe is thought to have been approximately one unit of Planck density."^^qudt:LatexString ;
   qudt:applicableSystem sou:PLANCK ;
   qudt:conversionMultiplier 5155000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0 ;
   qudt:conversionMultiplierSN 5.155E96 ;
@@ -58160,7 +58160,7 @@ unit:PlanckEnergy
   qudt:hasDimensionVector qkdv:A0E0L2I0M1H0T-2D0 ;
   qudt:hasQuantityKind quantitykind:Energy ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Planck_energy?oldid=493639955"^^xsd:anyURI ;
-  qudt:latexDefinition "$E_\\rho = \\sqrt{\\frac{ \\hbar c^5}{G}} \\approx 1.936 \\times 10^9 J \\approx 1.22 \\times 10^{28} eV \\approx 0.5433 MWh$, where  $c$ is the speed of light in a vacuum, $\\hbar$ is the reduced Planck's constant, and $G$ is the gravitational constant."^^qudt:LatexString ;
+  qudt:latexDefinition "$E_\\rho = \\sqrt{\\frac{ \\hbar c^5}{G}} \\approx 1.936 \\times 10^9 J \\approx 1.22 \\times 10^{28} eV \\approx 0.5433 MWh$, where $c$ is the speed of light in a vacuum, $\\hbar$ is the reduced Planck's constant, and $G$ is the gravitational constant."^^qudt:LatexString ;
   qudt:scalingOf unit:J ;
   qudt:symbol "Eᵨ" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q913365> ;
@@ -58258,7 +58258,7 @@ unit:PlanckLength
 
 unit:PlanckMass
   a qudt:Unit ;
-  dcterms:description "In physics, the Planck mass, denoted by $m_P$, is the unit of mass in the system of natural units known as Planck units. It is defined so that $\\approx  1.2209 \\times 10 GeV/c_0 = 2.17651(13) \\times 10 kg$, (or $21.7651 \\mu g$), where $c_0$ is the speed of light in a vacuum, $G$ is the gravitational constant, and $\\hbar$ is the reduced Planck constant. Particle physicists and cosmologists often use the reduced Planck mass, which is $\\approx  4.341 \\times 10 kg = 2.435  \\times 10 GeV/c$. The added factor of $1/{\\sqrt{8\\pi}}$ simplifies a number of equations in general relativity. Quantum effects are typified by the magnitude of Planck's constant."^^qudt:LatexString ;
+  dcterms:description "In physics, the Planck mass, denoted by $m_P$, is the unit of mass in the system of natural units known as Planck units. It is defined so that $\\approx 1.2209 \\times 10 GeV/c_0 = 2.17651(13) \\times 10 kg$, (or $21.7651 \\mu g$), where $c_0$ is the speed of light in a vacuum, $G$ is the gravitational constant, and $\\hbar$ is the reduced Planck constant. Particle physicists and cosmologists often use the reduced Planck mass, which is $\\approx 4.341 \\times 10 kg = 2.435 \\times 10 GeV/c$. The added factor of $1/{\\sqrt{8\\pi}}$ simplifies a number of equations in general relativity. Quantum effects are typified by the magnitude of Planck's constant."^^qudt:LatexString ;
   qudt:applicableSystem sou:PLANCK ;
   qudt:conversionMultiplier 0.0000000217644 ;
   qudt:conversionMultiplierSN 2.17644E-8 ;
@@ -58348,8 +58348,8 @@ unit:PlanckTemperature
   qudt:symbol "plancktemperature" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q720055> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Plancktemperature" ;
-  rdfs:label "Plancktemperature"@en .
+  rdfs:label "Planck Temperature" ;
+  rdfs:label "Planck Temperature"@en .
 
 unit:PlanckTime
   a qudt:Unit ;
@@ -58360,7 +58360,7 @@ unit:PlanckTime
 
   The formula for $\\textit{PlankTime}$ is:
 
-  $$ \\\\ t_P \\equiv  \\sqrt{\\frac{\\hbar G}{c^5}} \\approx 5.39106(32) \\times 10^{-44} s$$
+  $$ \\\\ t_P \\equiv \\sqrt{\\frac{\\hbar G}{c^5}} \\approx 5.39106(32) \\times 10^{-44} s$$
 
    where, $c$ is the speed of light in a vacuum, $\\hbar$ is the reduced Planck's constant
     (defined as $\\hbar = \\frac{h}{2 \\pi}$ and $G$ is the gravitational constant.
@@ -58512,7 +58512,7 @@ unit:QT_UK-PER-SEC
 
 unit:QT_US
   a qudt:Unit ;
-  dcterms:description "\"US Liquid Quart\" is a unit for  'Liquid Volume' expressed as $qt$."^^qudt:LatexString ;
+  dcterms:description "\"US Liquid Quart\" is a unit for 'Liquid Volume' expressed as $qt$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.000946352946 ;
   qudt:conversionMultiplierSN 9.46352946E-4 ;
@@ -58532,8 +58532,8 @@ unit:QT_US
   qudt:uneceCommonCode "QTL" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q98793408> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Quart" ;
-  rdfs:label "Us Liquid Quart"@en .
+  rdfs:label "US Liquid Quart" ;
+  rdfs:label "US Liquid Quart"@en .
 
 unit:QT_US-PER-DAY
   a qudt:Unit ;
@@ -58550,8 +58550,8 @@ unit:QT_US-PER-DAY
   qudt:ucumCode "[qt_us].d-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "K98" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Quart per Day" ;
-  rdfs:label "Us Liquid Quart per Day"@en .
+  rdfs:label "US Liquid Quart per Day" ;
+  rdfs:label "US Liquid Quart per Day"@en .
 
 unit:QT_US-PER-HR
   a qudt:Unit ;
@@ -58568,8 +58568,8 @@ unit:QT_US-PER-HR
   qudt:ucumCode "[qt_us].h-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "K99" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Quart per Hour" ;
-  rdfs:label "Us Liquid Quart per Hour"@en .
+  rdfs:label "US Liquid Quart per Hour" ;
+  rdfs:label "US Liquid Quart per Hour"@en .
 
 unit:QT_US-PER-MIN
   a qudt:Unit ;
@@ -58586,8 +58586,8 @@ unit:QT_US-PER-MIN
   qudt:ucumCode "[qt_us].min-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L10" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Quart per Minute" ;
-  rdfs:label "Us Liquid Quart per Minute"@en .
+  rdfs:label "US Liquid Quart per Minute" ;
+  rdfs:label "US Liquid Quart per Minute"@en .
 
 unit:QT_US-PER-SEC
   a qudt:Unit ;
@@ -58604,12 +58604,12 @@ unit:QT_US-PER-SEC
   qudt:ucumCode "[qt_us].s-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L11" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Liquid Quart per Second" ;
-  rdfs:label "Us Liquid Quart per Second"@en .
+  rdfs:label "US Liquid Quart per Second" ;
+  rdfs:label "US Liquid Quart per Second"@en .
 
 unit:QT_US_DRY
   a qudt:Unit ;
-  dcterms:description "\"US Dry Quart\" is a unit for  'Dry Volume' expressed as $dry_qt$."^^qudt:LatexString ;
+  dcterms:description "\"US Dry Quart\" is a unit for 'Dry Volume' expressed as $dry_qt$."^^qudt:LatexString ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.001101220942715 ;
   qudt:conversionMultiplierSN 1.101220942715E-3 ;
@@ -58624,8 +58624,8 @@ unit:QT_US_DRY
   qudt:uneceCommonCode "QTD" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q98793687> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Us Dry Quart" ;
-  rdfs:label "Us Dry Quart"@en .
+  rdfs:label "US Dry Quart" ;
+  rdfs:label "US Dry Quart"@en .
 
 unit:QUAD
   a qudt:Unit ;
@@ -58749,7 +58749,7 @@ unit:RAD
   qudt:iec61360Code "0112/2///62720#UAA966" ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Radian?oldid=492309312"^^xsd:anyURI ;
   qudt:omUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/radian> ;
-  qudt:plainTextDescription "The radian is the standard unit of angular measure, used in many areas of mathematics. It describes the plane angle subtended by a circular arc as the length of the arc divided by the radius of the arc. The unit was formerly a SI supplementary unit, but this category was abolished in 1995 and the radian is now considered a SI derived unit. The SI unit of solid angle measurement is the steradian.  The radian is represented by the symbol \"rad\" or, more rarely, by the superscript c (for \"circular measure\"). For example, an angle of 1.2 radians would be written as \"1.2 rad\" or \"1.2c\" (the second symbol is often mistaken for a degree: \"1.2u00b0\"). As the ratio of two lengths, the radian is a \"pure number\" that needs no unit symbol, and in mathematical writing the symbol \"rad\" is almost always omitted. In the absence of any symbol radians are assumed, and when degrees are meant the symbol u00b0 is used. [Wikipedia]" ;
+  qudt:plainTextDescription "The radian is the standard unit of angular measure, used in many areas of mathematics. It describes the plane angle subtended by a circular arc as the length of the arc divided by the radius of the arc. The unit was formerly a SI supplementary unit, but this category was abolished in 1995 and the radian is now considered a SI derived unit. The SI unit of solid angle measurement is the steradian. The radian is represented by the symbol \"rad\" or, more rarely, by the superscript c (for \"circular measure\"). For example, an angle of 1.2 radians would be written as \"1.2 rad\" or \"1.2c\" (the second symbol is often mistaken for a degree: \"1.2u00b0\"). As the ratio of two lengths, the radian is a \"pure number\" that needs no unit symbol, and in mathematical writing the symbol \"rad\" is almost always omitted. In the absence of any symbol radians are assumed, and when degrees are meant the symbol u00b0 is used. [Wikipedia]" ;
   qudt:qkdvDenominator qkdv:A0E0L1I0M0H0T0D0 ;
   qudt:qkdvNumerator qkdv:A0E0L1I0M0H0T0D0 ;
   qudt:siExactMatch si-unit:radian ;
@@ -58856,7 +58856,7 @@ unit:RAD-M2-PER-MOL
 
 unit:RAD-PER-HR
   a qudt:Unit ;
-  dcterms:description "\"Radian per Hour\" is a unit for  'Angular Velocity' expressed as $rad/h$."^^qudt:LatexString ;
+  dcterms:description "\"Radian per Hour\" is a unit for 'Angular Velocity' expressed as $rad/h$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -59123,7 +59123,7 @@ unit:REM-PER-SEC
 
 unit:REV
   a qudt:Unit ;
-  dcterms:description "\"Revolution\" is a unit for  'Plane Angle' expressed as $rev$."^^qudt:LatexString ;
+  dcterms:description "\"Revolution\" is a unit for 'Plane Angle' expressed as $rev$."^^qudt:LatexString ;
   qudt:applicableSystem sou:ASU ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
@@ -59153,7 +59153,7 @@ unit:REV
 
 unit:REV-PER-HR
   a qudt:Unit ;
-  dcterms:description "\"Revolution per Hour\" is a unit for  'Angular Velocity' expressed as $rev/h$."^^qudt:LatexString ;
+  dcterms:description "\"Revolution per Hour\" is a unit for 'Angular Velocity' expressed as $rev/h$."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.001745329251994329576923690768488613 ;
   qudt:conversionMultiplierSN 1.745329251994329576923690768488613E-3 ;
   qudt:expression "$rev/h$"^^qudt:LatexString ;
@@ -59167,7 +59167,7 @@ unit:REV-PER-HR
 
 unit:REV-PER-MIN
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Revolution per Minute\" is a unit for  'Angular Velocity' expressed as $rev/min$.  One revolution per minute is equivalent to 1/60 hertz."^^qudt:LatexString ;
+  dcterms:description "\"Revolution per Minute\" is a unit for 'Angular Velocity' expressed as $rev/min$. One revolution per minute is equivalent to 1/60 hertz."^^qudt:LatexString ;
   qudt:altSymbol "RPM" ;
   qudt:altSymbol "r/min" ;
   qudt:altSymbol "rpm" ;
@@ -59218,7 +59218,7 @@ unit:REV-PER-SEC
 
 unit:REV-PER-SEC2
   a qudt:Unit ;
-  dcterms:description "\"Revolution per Square Second\" is a C.G.S System unit for  'Angular Acceleration' expressed as $rev-per-s^2$."^^qudt:LatexString ;
+  dcterms:description "\"Revolution per Square Second\" is a C.G.S System unit for 'Angular Acceleration' expressed as $rev-per-s^2$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:conversionMultiplier 6.283185307179586476925286766559006 ;
   qudt:conversionMultiplierSN 6.283185307179586476925286766559006E0 ;
@@ -59340,7 +59340,7 @@ Current flow is opposed by resistance in all circuits, and by also by reactance 
 Conductance, susceptance, and admittance are the inverses of resistance, reactance, and impedance, respectively.
 To measure these properties, the siemens is the reciprocal of the ohm. In other words, the conductance, susceptance, or admittance, in siemens, is simply 1 divided by the resistance, reactance or impedance, respectively, in ohms.
 The unit is named for the German electrical engineer Werner von Siemens (1816-1892).
-$$\\  \\text{Siemens}\\equiv\\frac{\\text{A}}{\\text{V}}\\equiv\\frac{\\text{amp}}{\\text{volt}}\\equiv\\frac{\\text{F}}{\\text {s}}\\equiv\\frac{\\text{farad}}{\\text{second}}$$
+$$\\ \\text{Siemens}\\equiv\\frac{\\text{A}}{\\text{V}}\\equiv\\frac{\\text{amp}}{\\text{volt}}\\equiv\\frac{\\text{F}}{\\text {s}}\\equiv\\frac{\\text{farad}}{\\text{second}}$$
   """^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -59758,7 +59758,7 @@ Under the International System of Units (via the International Committee for Wei
 
 unit:SEC-FT2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Second Square Foot\" is an Imperial unit for  'Area Time' expressed as $s-ft^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Second Square Foot\" is an Imperial unit for 'Area Time' expressed as $s-ft^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 0.09290304 ;
@@ -59937,7 +59937,7 @@ unit:SEC-PER-RAD-M3
 
 unit:SEC2
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "\"Square Second\" is a unit for  'Square Time' expressed as $s^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Square Second\" is a unit for 'Square Time' expressed as $s^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -60083,7 +60083,7 @@ unit:SLUG-PER-DAY
 
 unit:SLUG-PER-FT
   a qudt:Unit ;
-  dcterms:description "\"Slug per Foot\" is an Imperial unit for  'Mass Per Length' expressed as $slug/ft$."^^qudt:LatexString ;
+  dcterms:description "\"Slug per Foot\" is an Imperial unit for 'Mass Per Length' expressed as $slug/ft$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 47.88025898033584261612967670379783 ;
@@ -60099,7 +60099,7 @@ unit:SLUG-PER-FT
 
 unit:SLUG-PER-FT-SEC
   a qudt:Unit ;
-  dcterms:description "$\\textit{Slug per Foot Second}$ is a unit for  'Dynamic Viscosity' expressed as $slug/(ft-s)$."^^qudt:LatexString ;
+  dcterms:description "$\\textit{Slug per Foot Second}$ is a unit for 'Dynamic Viscosity' expressed as $slug/(ft-s)$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 47.88025898033584261612967670379783 ;
@@ -60118,7 +60118,7 @@ unit:SLUG-PER-FT-SEC
 
 unit:SLUG-PER-FT2
   a qudt:Unit ;
-  dcterms:description "\"Slug per Square Foot\" is an Imperial unit for  'Mass Per Area' expressed as $slug/ft^{2}$."^^qudt:LatexString ;
+  dcterms:description "\"Slug per Square Foot\" is an Imperial unit for 'Mass Per Area' expressed as $slug/ft^{2}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 157.0874638462462028088243986345073 ;
@@ -60134,7 +60134,7 @@ unit:SLUG-PER-FT2
 
 unit:SLUG-PER-FT3
   a qudt:Unit ;
-  dcterms:description "\"Slug per Cubic Foot\" is an Imperial unit for  'Density' expressed as $slug/ft^{3}$."^^qudt:LatexString ;
+  dcterms:description "\"Slug per Cubic Foot\" is an Imperial unit for 'Density' expressed as $slug/ft^{3}$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:applicableSystem sou:USCS ;
   qudt:conversionMultiplier 515.3788183931962034410249299032393 ;
@@ -60186,7 +60186,7 @@ unit:SLUG-PER-MIN
 
 unit:SLUG-PER-SEC
   a qudt:Unit ;
-  dcterms:description "\"Slug per Second\" is an Imperial unit for  'Mass Per Time' expressed as $slug/s$."^^qudt:LatexString ;
+  dcterms:description "\"Slug per Second\" is an Imperial unit for 'Mass Per Time' expressed as $slug/s$."^^qudt:LatexString ;
   qudt:applicableSystem sou:IMPERIAL ;
   qudt:conversionMultiplier 14.59390293720636482939632545931758 ;
   qudt:conversionMultiplierSN 1.459390293720636482939632545931758E1 ;
@@ -60427,7 +60427,7 @@ unit:STILB
 
 unit:STR
   a qudt:Unit ;
-  dcterms:description "The stere is a unit of volume in the original metric system equal to one cubic metre.  The stere is typically used for measuring large quantities of firewood or other cut wood, while the cubic meter is used for uncut wood. It is not part of the modern metric system (SI). In Dutch there's also a kuub, short for kubieke meter which is similar but different."^^rdf:HTML ;
+  dcterms:description "The stere is a unit of volume in the original metric system equal to one cubic metre. The stere is typically used for measuring large quantities of firewood or other cut wood, while the cubic meter is used for uncut wood. It is not part of the modern metric system (SI). In Dutch there's also a kuub, short for kubieke meter which is similar but different."^^rdf:HTML ;
   qudt:conversionMultiplier 1.0 ;
   qudt:conversionMultiplierSN 1.0E0 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/St%C3%A8re"^^xsd:anyURI ;
@@ -60724,7 +60724,7 @@ unit:Stone_UK
 
 unit:T
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "The SI unit of flux density (or field intensity) for magnetic fields (also called the magnetic induction). The intensity of a magnetic field can be measured by placing a current-carrying conductor in the field. The magnetic field exerts a force on the conductor, a force which depends on the amount of the current and on the length of the conductor. One tesla is defined as the field intensity generating one newton of force per ampere of current per meter of conductor. Equivalently, one tesla represents a magnetic flux density of one weber per square meter of area. A field of one tesla is quite strong: the strongest fields available in laboratories are about 20 teslas, and the Earth's magnetic flux density, at its surface, is about 50 microteslas. The tesla, defined in 1958, honors the Serbian-American electrical engineer Nikola Tesla (1856-1943), whose work in electromagnetic induction led to the first practical generators and motors using alternating current. $T =  V\\cdot s \\cdot m^{-2} = N\\cdot A^{-1}\\cdot m^{-1} = Wb\\cdot m^{-2} = kg \\cdot  C^{-1}\\cdot s^{-1}\\cdot A^{-1} = kg \\cdot s^{-2}\\cdot A^{-1} = N \\cdot s \\cdot C^{-1}\\cdot m^{-1}$ where, $\\\\$ $A$ = ampere, $C$=coulomb, $m$ = meter,  $N$ = newton, $s$ = second, $T$ = tesla, $Wb$ = weber"^^qudt:LatexString ;
+  dcterms:description "The SI unit of flux density (or field intensity) for magnetic fields (also called the magnetic induction). The intensity of a magnetic field can be measured by placing a current-carrying conductor in the field. The magnetic field exerts a force on the conductor, a force which depends on the amount of the current and on the length of the conductor. One tesla is defined as the field intensity generating one newton of force per ampere of current per meter of conductor. Equivalently, one tesla represents a magnetic flux density of one weber per square meter of area. A field of one tesla is quite strong: the strongest fields available in laboratories are about 20 teslas, and the Earth's magnetic flux density, at its surface, is about 50 microteslas. The tesla, defined in 1958, honors the Serbian-American electrical engineer Nikola Tesla (1856-1943), whose work in electromagnetic induction led to the first practical generators and motors using alternating current. $T = V\\cdot s \\cdot m^{-2} = N\\cdot A^{-1}\\cdot m^{-1} = Wb\\cdot m^{-2} = kg \\cdot C^{-1}\\cdot s^{-1}\\cdot A^{-1} = kg \\cdot s^{-2}\\cdot A^{-1} = N \\cdot s \\cdot C^{-1}\\cdot m^{-1}$ where, $\\\\$ $A$ = ampere, $C$=coulomb, $m$ = meter, $N$ = newton, $s$ = second, $T$ = tesla, $Wb$ = weber"^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
@@ -61004,8 +61004,8 @@ unit:THM_US-PER-HR
   qudt:symbol "thm{US}/h" ;
   qudt:ucumCode "100000.[Btu_59].h-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Therm Us per Hour" ;
-  rdfs:label "Therm Us per Hour"@en .
+  rdfs:label "Therm US per Hour" ;
+  rdfs:label "Therm US per Hour"@en .
 
 unit:THOUSAND
   a qudt:CountingUnit, qudt:Unit ;
@@ -61539,8 +61539,8 @@ unit:TON_F_US
   qudt:ucumCode "[stonf_av]"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "L94" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Ton Force (us Short)" ;
-  rdfs:label "Ton Force (us Short)"@en .
+  rdfs:label "Ton Force (US Short)" ;
+  rdfs:label "Ton Force (US Short)"@en .
 
 unit:TON_LONG
   a qudt:Unit ;
@@ -61947,8 +61947,8 @@ unit:TON_SHIPPING_UK
   qudt:symbol "MTON" ;
   qudt:uneceCommonCode "L84" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Ton (uk Shipping)" ;
-  rdfs:label "Ton (uk Shipping)"@en .
+  rdfs:label "Ton (UK Shipping)" ;
+  rdfs:label "Ton (UK Shipping)"@en .
 
 unit:TON_SHIPPING_US
   a qudt:Unit ;
@@ -61965,8 +61965,8 @@ unit:TON_SHIPPING_US
   qudt:uneceCommonCode "L86" ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q106611236> ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Ton (us Shipping)" ;
-  rdfs:label "Ton (us Shipping)"@en .
+  rdfs:label "Ton (US Shipping)" ;
+  rdfs:label "Ton (US Shipping)"@en .
 
 unit:TON_SHORT
   a qudt:Unit ;
