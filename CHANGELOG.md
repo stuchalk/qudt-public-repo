@@ -13,6 +13,8 @@ and this project is in the process of adopting [Semantic Versioning](https://sem
 
 ### Changed
 
+- Corrected typos, labels and descriptions in quantity kinds 
+
 ### Deprecated
 
 ### Fixed
